@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context" id="ExpresswaySimulation">
+<?xml version="1.0" encoding="UTF-8"?>
+<context 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context" 
+id="ExpresswaySimulation">
+
   <context id="default_observer_context">
     <projection id="Grid2d" type="grid"/>
     <projection id="Space2d" type="continuous space"/>
@@ -7,4 +12,7 @@
     <projection id="Tracking Network" type="network"/>
     <projection id="UserLink" type="network"/>
   </context>
+  
+  <projection type ="continuous space" id ="space"/>
+  <projection type ="grid" id="grid"/>
 </context>
