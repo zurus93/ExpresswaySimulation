@@ -4,6 +4,10 @@ import java.util.Random;
 
 import expresswaysimulation.agents.Auto;
 import expresswaysimulation.agents.Gate;
+import expresswaysimulation.agents.autos.AutoBlue;
+import expresswaysimulation.agents.autos.AutoGreen;
+import expresswaysimulation.agents.autos.AutoRed;
+import expresswaysimulation.util.LanesManager;
 import expresswaysimulation.util.Params;
 import repast.simphony.context.Context;
 import repast.simphony.context.space.continuous.ContinuousSpaceFactory;
@@ -35,20 +39,21 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
                 new GridBuilderParameters<Object>(new WrapAroundBorders(),
                         new SimpleGridAdder<Object>(), true, Params.GRID_WIDTH, Params.GRID_HEIGHT));
 		
+		LanesManager lanesManager = LanesManager.getInstance();
+		Random rand = new Random();
 		// Cars initialization
 		for (int i = 0; i < Params.NUMBER_OF_CARS; ++i) {
 		    Random rndVelocity = new Random();
-		    int velocity = 1 + rndVelocity.nextInt(2);
-		    Random rndPaymentTime = new Random();
-		    int paymentTime = 5 + rndPaymentTime.nextInt(10);
+		    int velocity = 1 + rndVelocity.nextInt(3);
 
-		    Auto auto = new Auto(space, grid, velocity, paymentTime);
+
+		    Auto auto = getAuto(space, grid, velocity, rand);
 
 		    context.add(auto);
 		    
 		    Random rndX = new Random();
-		    boolean lane = rndX.nextBoolean();
-		    int posX = lane ? 31 : 21;
+		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES);
+		    int posX = lanesManager.getLaneX(lane);
 		    
 		    Random rndY = new Random();
 		    int posY = rndY.nextInt(40);		   
@@ -58,15 +63,31 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		}
 		
 		// Gates initialization
-		for (int i = 0; i < 4; ++i) {
+		for (int i = 0; i < Params.NUMBER_OF_LANES; ++i) {
 		    Gate gate = new Gate(space, grid);
 		    context.add(gate);
 		    
-		    grid.moveTo(gate, 10 + 10 * i, 45);
-		    space.moveTo(gate, 10 + 10 * i, 45);
+		    grid.moveTo(gate, lanesManager.getLaneX(i), Params.END_POSITION);
+		    space.moveTo(gate, lanesManager.getLaneX(i), Params.END_POSITION);
 		}
 		
 		return context ;
+	}
+
+	private Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid,
+			int velocity, Random rand) {
+
+		switch (rand.nextInt(4)){
+		case 1:
+			return new AutoRed(space, grid, velocity);
+		case 2:
+			return new AutoGreen(space, grid, velocity);
+		case 3:
+			return new AutoBlue(space, grid, velocity);
+			default: 
+				return new Auto(space, grid, velocity);
+		}
+		
 	}
 
 }

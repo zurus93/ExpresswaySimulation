@@ -1,5 +1,7 @@
 package expresswaysimulation.agents;
 
+import java.util.Random;
+
 import repast.simphony.space.continuous.ContinuousSpace;
 import repast.simphony.space.grid.Grid;
 
@@ -13,9 +15,15 @@ public class Gate {
 	
 	private ContinuousSpace<Object> mSpace;
 	private Grid<Object> mGrid;
+	private Random rndPaymentTime;
 	
 	public Gate(ContinuousSpace<Object> space, Grid<Object> grid) {
 		mSpace = space;
 		mGrid = grid;
+		rndPaymentTime = new Random();
+	}
+	
+	public int getAwaitingTime(){
+		return 5 + rndPaymentTime.nextInt(10);
 	}
 }

@@ -1,5 +1,6 @@
 package expresswaysimulation.agents;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import repast.simphony.engine.schedule.ScheduledMethod;
@@ -20,17 +21,15 @@ public class Auto {
 	private Grid<Object> mGrid;
 	private int mVelocity;
 	
-	private int mPaymentTime;
-	private int mPaymentCount = 0;
+	private int mPaymentTime = 0;
 	
-	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity, int paymentTime) {
+	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity) {
 		mSpace = space;
 		mGrid = grid;
 		mVelocity = velocity;
-		mPaymentTime = paymentTime;
 	}
 	
-	@ScheduledMethod(start = 1, interval = 5000)
+	@ScheduledMethod(start = 1, interval = 1)
 	public void step() {
 		GridPoint gp = mGrid.getLocation(this);
 		
@@ -69,29 +68,34 @@ public class Auto {
 			mGrid.moveTo(this, (int) pt.getX(), (int) pt.getY());
 			mSpace.moveTo(this, pt.getX(), pt.getY());
 		}		
+		System.out.println(pt.getY());
 	}
 	
 	private int nearGates(GridPoint gp, int y) {
+		
 	    GridCellNgh<Gate> nghCreator = new GridCellNgh<Gate>(mGrid, gp, Gate.class, 1, y - gp.getY());
 	    List<GridCell<Gate>> gridCells = nghCreator.getNeighborhood(true);
-	    
 	    int newY = y;
 	    for (GridCell cell : gridCells) {
 	        // Check only cells ahead of the car (we are not interested in the gate if we already passed one).
 	        // If the gate is anywhere on the path we want to go, drive to the coordinates of the gate (not further)
 	        // and stop for enough time to make a payment.
 	        if (cell.getPoint().getY() >= gp.getY() && cell.size() > 0) {
-	            if (mPaymentCount < mPaymentTime) {
-	                mPaymentCount++;
-	                newY = cell.getPoint().getY();
-
-	                break;
-	            } else {
-	                mPaymentCount = 0;
-	            }
+	        	
+	    		for (Object obj : mGrid.getObjectsAt(cell.getPoint().getX(), cell.getPoint().getY())) {
+	    			if (obj instanceof Gate) {
+	    				Gate gate = (Gate)obj;
+	    	            if (mPaymentTime > 0) {
+	    	            	mPaymentTime--;
+	    	                newY = cell.getPoint().getY();
+	    	                return newY;
+	    	            } else {
+	    	                mPaymentTime = gate.getAwaitingTime();
+	    	            }
+	    			}
+	    		}
 	        }
 	    }
-	    
 	    return newY;
 	}
 }

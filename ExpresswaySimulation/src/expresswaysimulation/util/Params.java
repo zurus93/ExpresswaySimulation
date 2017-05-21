@@ -6,6 +6,9 @@ public class Params {
     
     public final static int GRID_HEIGHT = 50;
     
-    public final static int NUMBER_OF_CARS = 20;
-
+    public final static int NUMBER_OF_CARS = 30;
+    
+    public final static int NUMBER_OF_LANES = 5;
+    
+    public final static int END_POSITION = 45;
 }
