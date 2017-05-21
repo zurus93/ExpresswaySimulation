@@ -1,0 +1,1701 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>N4JS: N4JS Becomes an Eclipse Project</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-7569987920628430132.post-674575259795580033</guid>
+	<link>http://n4js.blogspot.com/2017/05/n4js-becomes-eclipse-project.html</link>
+	<description>&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;We’re proud to announce that N4JS has been accepted as an Eclipse Project and the final official steps are underway. Our team have been working very hard to wrap up the Initial Contribution and are excited to be part of Eclipse. The project will be hosted at &lt;a class=&quot;bare&quot; href=&quot;https://eclipse.org/n4js&quot;&gt;https://eclipse.org/n4js&lt;/a&gt;, although this currently redirects to the project description while our pages are being created. In the meantime, N4JS is already open source - our GitHub project pages are located at &lt;a class=&quot;bare&quot; href=&quot;http://numberfour.github.io/n4js/&quot;&gt;http://numberfour.github.io/n4js/&lt;/a&gt; which contains articles, documentation, the source for N4JS and more.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;strong&gt;Some background information about us:&lt;/strong&gt;&lt;br /&gt;N4JS was developed by &lt;a href=&quot;https://www.enfore.com/&quot;&gt;Enfore AG&lt;/a&gt;, founded in 2009 as NumberFour AG by Marco Boerries. Enfore’s goal is to build an open business platform for 200+ million small businesses and to provide those businesses with the tools and solutions they need to stay competitive in a connected world.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;Initially, JavaScript was intended as the main language for third-party developers to contribute to our platform; it runs directly in the browser and it’s the language of the web! One major drawback is the absence of a static type system; this turned out to be an essential requirement for us. We wanted to ensure reliable development of our platform and our own applications, as well as making life easier for third-party contributors to the Enfore platform. That’s the reason why we developed N4JS, a general-purpose programming language based on ECMAScript 5 (commonly known as JavaScript). The language combines the dynamic aspects of JavaScript with the strengths of Java-like types to facilitate the development of flexible and reliable applications.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;N4JS is constantly growing to support many new modern language features as they become available. Some of the features already supported are concepts introduced in ES6 including arrow functions, &lt;code&gt;async/await&lt;/code&gt;, modules and much more. Our core team are always making steady improvements and our front end team make use of the language and IDE daily for their public-facing projects. For more information on how the N4JS language differs from other JavaScript variants introducing static typing, see our detailed &lt;a href=&quot;http://numberfour.github.io/n4js/faq&quot;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;strong&gt;Why Eclipse?&lt;/strong&gt;&lt;br /&gt;For us, software development is much more than simply writing code, which is why we believe in IDEs and Eclipse in particular. We were looking for developer tools which leverage features like live code validation, content assist (aka code completion), quick fixes, and a robust testing framework. Contributors to our platform can benefit from these resources for their own safe and intuitive application development.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;We tried very hard to design N4JS so that Java developers feel at home when writing JavaScript without sacrificing JavaScript’s support for dynamic and functional features. Our vision is to provide an IDE for statically-typed JavaScript that feels just like JDT. This is why we strongly believe that N4JS could be quite interesting in particular for Eclipse (Java) developers. Aside from developers who are making use of N4JS, there are areas in the development of N4JS itself which would be of particular interest to committers versed in type theory, semantics, EMF, Xtext and those who generally enjoy solving the multitude of challenges involved in creating new programming languages.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;strong&gt;What’s next?&lt;/strong&gt;&lt;br /&gt;While we are moving the project to Eclipse, there are plenty of important checks that must be done by the Eclipse Intellectual Property Team. The Initial Contribution is under review with approximately thirty Contribution Questionnaires created. This is a great milestone for us and reflects the huge effort involved in the project to date. We look forward to joining Eclipse, taking part in the ecosystem in an official capacity and seeing what the community can do with N4JS. While we complete these final requirements, we want to extend many thanks to all at Eclipse who are helping out with the process so far! &lt;/p&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 19 May 2017 15:34:02 +0000</pubDate>
+	<author>noreply@blogger.com (Brian Smith)</author>
+</item>
+<item>
+	<title>Roxanne Joncas: Open Testbeds, DB Case Study, and IoT Events</title>
+	<guid isPermaLink="false">https://medium.com/p/5a7414ffa1e3</guid>
+	<link>https://medium.com/@roxanne.iot/open-testbeds-db-cast-study-and-iot-events-5a7414ffa1e3?source=rss-82f8afd3e513------2</link>
+	<description>&lt;p&gt;The Eclipse IoT community has been working hard on some pretty awesome things over the past few months! Here is a quick summary of what has been happening.&lt;/p&gt;&lt;h3&gt;Open Testbeds&lt;/h3&gt;&lt;p&gt;We recently &lt;a href=&quot;https://www.eclipse.org/org/press-release/20170426_iottestbeds.php&quot;&gt;announced&lt;/a&gt; the launch of Eclipse IoT Open Testbeds. Simply put, they are collaborations between vendors and open source communities that aim to demonstrate and test commercial and open source components needed to create specific industry solutions.&lt;/p&gt;&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/org/press-release/20170426_iottestbeds.php&quot;&gt;Asset Tracking Management Testbed&lt;/a&gt; is the very first one! It is a collaboration between Azul Systems, Codenvy, Eurotech, Red Hat, and Samsung’s ARTIK team. It demonstrates how assets with various sensors can be tracked in real-time, in order to minimize the cost of lost or damaged parcels. You can learn more about the Eclipse IoT Open Testbeds &lt;a href=&quot;https://iot.eclipse.org/testbeds/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Watch &lt;a href=&quot;https://medium.com/u/12c9446b8e55&quot;&gt;Benjamin Cabé&lt;/a&gt; present the Asset Tracking testbed demo in the video below. It was recorded at the Red Hat Summit in Boston this month.⬇&lt;/p&gt;&lt;a href=&quot;https://medium.com/media/9760619803f58c96c48cecf2af59dd18/href&quot;&gt;https://medium.com/media/9760619803f58c96c48cecf2af59dd18/href&lt;/a&gt;&lt;h3&gt;Case Study&lt;/h3&gt;&lt;p&gt;We have been working with Deutsche Bahn (DB) and DB Systel to create a great &lt;a href=&quot;https://iot.eclipse.org/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf&quot;&gt;case study&lt;/a&gt; that demonstrates how open source IoT technology is being used on their German railway system. They are currently using two Eclipse IoT projects, &lt;a href=&quot;https://www.eclipse.org/paho/&quot;&gt;Eclipse Paho&lt;/a&gt; and &lt;a href=&quot;https://mosquitto.org/&quot;&gt;Eclipse Mosquitto&lt;/a&gt;, among other technologies. In other words, if you’ve taken a DB train in Germany, you might have witnessed the “invisible” work of Eclipse IoT technology at the station or on board. How awesome is that?!&lt;/p&gt;&lt;figure&gt;&lt;a href=&quot;https://iot.eclipse.org/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*w_RkPbsu54ui3KKgVjF0BA.png&quot; /&gt;&lt;/a&gt;Case Study — Eclipse IoT and DB&lt;/figure&gt;&lt;h3&gt;Upcoming IoT Events&lt;/h3&gt;&lt;p&gt;I am currently working on the organization of two upcoming Eclipse IoT Days that will take place in Europe this fall! 🍂 🍁 🍃 We are currently accepting talks for both events. Go on, submit your passion! I am excited to read your proposal :)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://thingmonk.com/&quot;&gt;&lt;strong&gt;Eclipse IoT Day @ Thingmonk&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;September 11 | London, UK&lt;br /&gt;📢 Email us your proposal iot at eclipse dot org&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;&lt;strong&gt;Eclipse IoT Day @ EclipseCon Europe&lt;/strong&gt;&lt;br /&gt;&lt;/a&gt;October 24 | Ludwigsburg, Germany&lt;br /&gt;📢 &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;Propose a talk&lt;/a&gt;&lt;/p&gt;&lt;p&gt;I look forward to meeting you in person at both events!&lt;/p&gt;&lt;p&gt;— Roxanne (Yes, I decided to sign this blog post.)&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=5a7414ffa1e3&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 19 May 2017 13:02:20 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: Installing Red Hat Developer Studio 10.2.0.GA through RPM</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/10.2.0.rpm-installation.html</guid>
+	<link>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With the release of &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 10.2&lt;/a&gt;, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;red-hat-software-collections&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-software-collections&quot;&gt;&lt;/a&gt;Red Hat Software Collections&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio RPM relies on Red Hat Software Collections. You don’t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;enabling-the-red-hat-software-collections-base-repository&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#enabling-the-red-hat-software-collections-base-repository&quot;&gt;&lt;/a&gt;Enabling the Red Hat Software Collections base repository&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The identifier for the repository is &lt;strong&gt;rhel-server-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Server and &lt;strong&gt;rhel-workstation-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Workstation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Server is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Workstation is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For more information, please refer to the &lt;a href=&quot;https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/&quot;&gt;Red Hat Software Collections&lt;/a&gt; documentation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;jboss-developer-studio-repository&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-developer-studio-repository&quot;&gt;&lt;/a&gt;JBoss Developer Studio repository&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Create a file &lt;strong&gt;/etc/yum.repos.d/rh-eclipse46-devstudio.repo&lt;/strong&gt; with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgkey=https://www.redhat.com/security/data/a5787476.txt
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;install-red-hat-jboss-developer-studio&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#install-red-hat-jboss-developer-studio&quot;&gt;&lt;/a&gt;Install Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You’re now ready to install Red Hat JBoss Developer Studio through RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enter the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo yum install rh-eclipse46-devstudio&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Answer &amp;amp;aposy&amp;amp;apos when transaction summary is ready to continue installation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Answer &amp;amp;aposy&amp;amp;apos one more time when you see request to import GPG public key&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;Public key for rh-eclipse46-devstudio .rpm is not installed
+      Retrieving key from https://www.redhat.com/security/data/a5787476.txt
+      Importing GPG key 0xA5787476:
+       Userid     : &quot;Red Hat, Inc. (development key) &amp;lt;security@redhat.com&amp;gt;&quot;
+       Fingerprint: 2d6d 2858 5549 e02f 2194 3840 08b8 71e6 a578 7476
+       From       : https://www.redhat.com/security/data/a5787476.txt
+      Is this ok [y/N]:&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;After all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You should see messages like the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;rh eclipse46 devstudio.log&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;launch-red-hat-jboss-developer-studio&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#launch-red-hat-jboss-developer-studio&quot;&gt;&lt;/a&gt;Launch Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the system menu, mouse over the &lt;strong&gt;Programming&lt;/strong&gt; menu, and the &lt;strong&gt;Red Hat Eclipse&lt;/strong&gt; menu item will appear.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;programming menu&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 19 May 2017 12:23:55 +0000</pubDate>
+</item>
+<item>
+	<title>Cedric Brun: EcoreTools: user experience revamped thanks to Sirius 5.0</title>
+	<guid isPermaLink="false">http://cedric.brun.io/eclipse/eclipse-oxygen-modeling</guid>
+	<link>http://cedric.brun.io/eclipse/eclipse-oxygen-modeling/</link>
+	<description>&lt;p&gt;Every year the Eclipse M7 milestone act as a very strong deadline for the projects which are part of the release train: it’s then time for polishing and refining!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Time's up ! Pencils down, it's M7 !&lt;/p&gt;— Cédric Brun (@bruncedric) &lt;a href=&quot;https://twitter.com/bruncedric/status/13356256886&quot;&gt;4 mai 2010&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;When your company is responsible for a number of inter-dependent projects some of them core technologies like &lt;a href=&quot;https://projects.eclipse.org/projects/modeling.emfservices&quot; target=&quot;_blank&quot;&gt;EMF Services&lt;/a&gt; , the GMF Runtime, others user facing tools like  &lt;a href=&quot;http://www.eclipse.org/acceleo/&quot; target=&quot;_blank&quot;&gt;Acceleo&lt;/a&gt;,  &lt;a href=&quot;http://www.eclipse.org/sirius/&quot; target=&quot;_blank&quot;&gt;Sirius&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/ecoretools/&quot; target=&quot;_blank&quot;&gt;EcoreTools&lt;/a&gt;, packaging and integration oriented projects like Amalgam or the Eclipse Packaging project and all of these releases needs to be coordinated, then may is a busy month.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;This week: M7 milestones for EcoreTools, Amalgam, Sirius, testing the Modeling package. Plot twist: 3 work days ! &lt;a href=&quot;https://t.co/msqQkImRu4&quot;&gt;pic.twitter.com/msqQkImRu4&lt;/a&gt;&lt;/p&gt;— Cédric Brun (@bruncedric) &lt;a href=&quot;https://twitter.com/bruncedric/status/727412029292711936&quot;&gt;3 mai 2016&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;I’m personally involved in EcoreTools which makes me in the position to step in the role of the consumer of the other technologies and my plan for Oxygen was to make use of the Property Views support included in Sirius. This support allows me, as the maintainer of EcoreTools to specify directly through the &lt;code class=&quot;highlighter-rouge&quot;&gt;.odesign&lt;/code&gt; every Tab displayed in the &lt;strong&gt;properties view&lt;/strong&gt;. Just like the rest of Sirius it is 100% dynamic, no need for code generation or compilation, and complete flexibility with the ability to use queries in every part of the definition.&lt;/p&gt;
+
+&lt;p&gt;Before Oxygen EcoreTools already had property editors. Some of them were coded by hand and were developed more than 8 years ago. When I replaced the legacy modeler by using Sirius I made sure at that time to reuse those highly tuned property editors. Others I generated using the first generation of the &lt;a href=&quot;https://eclipse.org/eef/#/&quot; target=&quot;_blank&quot;&gt;EEF Framework&lt;/a&gt; so that I could cover every type of Ecore and benefit from the dialogs to edit properties using double click. The &lt;a href=&quot;http://cedric.brun.io/ecoretools-20-luna-revival/&quot;&gt;intent at that time&lt;/a&gt; was to make the modeler usable in &lt;strong&gt;fullscreen&lt;/strong&gt; when no other view is visible.&lt;/p&gt;
+
+&lt;p&gt;Because of this requirement I had to wait for the Sirius team to make its magic: the properties views support was ready for production with &lt;a href=&quot;https://www.eclipse.org/sirius/whatsnew/whatsnew4-1.html&quot;&gt;Sirius 4.1&lt;/a&gt;, but this was not including any support for dialogs and wizards yet.&lt;/p&gt;
+
+&lt;p&gt;Then magic happened: the support for dialogs and wizards is now completely merged in Sirius, starting with M7. In EcoreTools the code responsible for those properties editors represents more than 70% of the total code which peaks at 28K.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/locs.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/locs.png&quot; /&gt;&lt;/a&gt;    
+    Lines of Java code subject to deletion in EcoreTools
+&lt;/figure&gt;
+
+&lt;p&gt;In gray those are the plugins which are subject to removal once I use this new feature, as a developer &lt;strong&gt;one can only rejoice at the idea of deleting so much code!&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I went ahead and started &lt;a href=&quot;https://git.eclipse.org/r/#/c/96674/&quot;&gt;working&lt;/a&gt; on this, the schedule was tight but thanks to the ability to define reflective rules using &lt;strong&gt;Dynamic Mappings&lt;/strong&gt; I could quickly cover everything in Ecore and get those new dialogs working.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/ng-dialogs-ecoretools.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/ng-dialogs-ecoretools.png&quot; /&gt;&lt;/a&gt;    
+    New vs old dialogs
+&lt;/figure&gt;
+
+&lt;p&gt;Just by using a dozen reflective rules and adding specific &lt;em&gt;Pages&lt;/em&gt; or &lt;em&gt;Widgets&lt;/em&gt; when needed.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/vsm.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/vsm.png&quot; /&gt;&lt;/a&gt;    
+    The tooling definition in ecore.odesign
+&lt;/figure&gt;
+
+&lt;p&gt;It went so fast I could add new tools for the &lt;strong&gt;Generation Settings&lt;/strong&gt; through a specific tab.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/genmodel.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/genmodel.png&quot; /&gt;&lt;/a&gt;    
+    Genmodel properties exposed through a specific tab
+&lt;/figure&gt;
+
+&lt;p&gt;And even introduce a link to directly navigate to the Java code generated from the model:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/ecoretools-navigate-java.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/ecoretools-navigate-java.png&quot; /&gt;&lt;/a&gt;    
+    Link opening the corresponding generated Java code.
+&lt;/figure&gt;
+
+&lt;p&gt;Even support for EAnnotations could be implemented in a nice way:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/properties/eannotations.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/properties/eannotations.png&quot; /&gt;&lt;/a&gt;    
+    Tab to add, edit or delete any EAnnotation
+&lt;/figure&gt;
+
+&lt;p&gt;As a tool provider I could focus on streamlining the experience, providing tabs and actions so that the end user don’t have to leave the modeler to adapt the generation settings or launch the code generation, give visual clues when something is invalid. I went through many variants of these UIs just to get the feel of it, as I get an instant feedback I only need minutes to rule out an option.  I have a whole new dimension I can use to make my tool super effective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is what Sirius is about, empowering the tool provider to focus on the user experience of its users.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It is just one of the many changes which we’ve been working on since last year to improve the user experience of modeling tools, Mélanie and Stéphane will present a talk on this very subject during EclipseCon France at Toulouse: &lt;a href=&quot;https://www.eclipsecon.org/france2017/session/all-about-ux-sirius&quot;&gt;“All about UX in Sirius.”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All of these changes are landing in &lt;a href=&quot;https://www.eclipse.org/downloads/index-developer.php&quot; target=&quot;_blank&quot;&gt;Eclipse Oxygen&lt;/a&gt; starting with M7, those are newly introduced and I have no doubt I’ll have some polishing and refining to do, I’m counting on you to &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Ecoretools&quot; target=&quot;_blank&quot;&gt;report anything suspicious&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/eclipse/eclipse-oxygen-modeling/&quot;&gt;EcoreTools: user experience revamped thanks to Sirius 5.0&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;CTO @ Obeo&lt;/a&gt; on May 19, 2017.&lt;/p&gt;</description>
+	<pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: Case Study: Deploying Eclipse IoT on Germany's DB Railway System</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/8RKqg6D0mA8/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/8RKqg6D0mA8/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf</link>
+	<description>We worked with Deutsche Bahn (DB) to find out how they use Eclipse IoT technology on their railway system!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/8RKqg6D0mA8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 18 May 2017 08:55:00 +0000</pubDate>
+</item>
+<item>
+	<title>Kim Moir: New blog location</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-25023280.post-5577653258282588564</guid>
+	<link>http://relengofthenerds.blogspot.com/2017/05/new-blog-location.html</link>
+	<description>I moved my blog to WordPress.&lt;br /&gt;&lt;br /&gt;New location is here &lt;a href=&quot;https://kimmoir.blog/&quot;&gt;https://kimmoir.blog/&lt;/a&gt;</description>
+	<pubDate>Wed, 17 May 2017 21:12:22 +0000</pubDate>
+	<author>noreply@blogger.com (Kim Moir)</author>
+</item>
+<item>
+	<title>Kichwa Coders: What can Eclipse developers learn from Team Sky’s aggregation of marginal gains?</title>
+	<guid isPermaLink="false">http://kichwacoders.com/?p=1934</guid>
+	<link>https://kichwacoders.com/2017/05/17/what-can-eclipse-developers-learn-from-team-skys-aggregation-of-marginal-gains/</link>
+	<description>&lt;blockquote&gt;&lt;p&gt;The concept of marginal gains, made famous by Team Sky, has &lt;a href=&quot;http://www.bbc.co.uk/news/magazine-34247629&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;revolutionized some sports&lt;/a&gt;. The principle is that if you make 1% improvements in a number of areas, in the long run the cumulative gains will be hugely significant. And in that vein, a 1% decline here-and-there will lead to significant problems further down the line.&lt;/p&gt;
+&lt;p&gt;So how could we apply that principle to the user experience (UX) of Eclipse C/C++ Development (CDT) tools? What would happen if we continuously improved lots of small things in Eclipse CDT? Such as the &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=314428&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;build console speed&lt;/a&gt;? Or a really annoying message in the debugger source window? It is still too soon to analyse the impact of these changes but we believe even the smallest positive change will be worth it. Plus it is a great way to get new folks involved with the project. Here’s a guest post from Pierre Sachot, a computer science student at &lt;a href=&quot;http://www.iut-blagnac.fr/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;IUT Blagnac&lt;/a&gt; who is currently doing open-source work experience with &lt;a href=&quot;https://kichwacoders.com/about/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Kichwa Coders&lt;/a&gt;. Pierre has written an experience report on fixing his very first CDT UX issue.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2&gt;Context&lt;/h2&gt;
+&lt;p&gt;This week I worked with Yannick on fixing the CDT CSourceNotFoundEditor problem – the unwanted error message that Eclipse CDT shows when users are running the debugger and jumping into a function which is in another project file. When Eclipse CDT users were running the debugger on the C Project, a window was opening on screen. This window was both alarming in appearance and obtrusive. In addition, the message itself was unclear. For example, it could display “No source available for 0x02547”, which is irrelevent to the user because he/she does not have an access to this memory address. Several users had complained about it and expressed a desire to disable the window (see: &lt;a href=&quot;http://stackoverflow.com/questions/43361654/eclipse-often-opens-editors-for-hex-numbers-addresses-then-fails-to-load-anyt/43412237&quot;&gt;stack overflow: “Eclipse often opens editors for hex numbers (addresses?) then fails to load anything”&lt;/a&gt;). In this post I will show you how we replaced CSourceUserNot FoundEditor with a better user experience display.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/PierreSachot/Internship-Reports/master/images/week%204/Screenshot_1.png&quot; /&gt;&lt;span id=&quot;more-1934&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Problem description:&lt;/h2&gt;
+&lt;p&gt;1- The problem we faced was that CSourceNotFoundEditor displayed on several occasions. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When the source file was not found&lt;/li&gt;
+&lt;li&gt;When the memory address was known but not the function name&lt;/li&gt;
+&lt;li&gt;When the function name was known&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2- We also wanted to tackle that red link! Red lettering is synonymous with big problems – yet the error message was merely informing the user that the source could not be found, so we felt a less alarmist style of text would be more appropriate.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;CSourceNotFoundEditor Dialog:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;right&quot;&gt;Previous version&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;New version&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;&lt;a href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/images/week%204/Screenshot_1.png?raw=true&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://github.com/PierreSachot/Internship-Reports/raw/master/images/week%204/Screenshot_1.png?raw=true&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/images/week%204/Screenshot_2.png?raw=true&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://github.com/PierreSachot/Internship-Reports/raw/master/images/week%204/Screenshot_2.png?raw=true&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;CSourceNotFoundEditor Preferences:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;right&quot;&gt;Previous version&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;New version&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;&lt;a href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/images/week%204/Screenshot_3.png?raw=true&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://github.com/PierreSachot/Internship-Reports/raw/master/images/week%204/Screenshot_3.png?raw=true&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/images/week%204/Screenshot_4.png?raw=true&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://github.com/PierreSachot/Internship-Reports/raw/master/images/week%204/Screenshot_4.png?raw=true&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/Pierre%20Sachot%20-%20week%204.md#how-to-resolve-the-problem-&quot; id=&quot;user-content-how-to-resolve-the-problem-&quot;&gt;&lt;/a&gt;How to resolve the problem ?&lt;/h2&gt;
+&lt;h3&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/Pierre%20Sachot%20-%20week%204.md#csourcenotfoundeditor&quot; id=&quot;user-content-csourcenotfoundeditor&quot;&gt;&lt;/a&gt;CSourceNotFoundEditor:&lt;/h3&gt;
+&lt;p&gt;CSourceNotFoundEditor is the class called by the &lt;code&gt;openEditor()&lt;/code&gt; function, Yannick added a link to the debug preferences page inside it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first thing to do was to create the “Preferences…” button and a text to go with it. Yannick did this in the &lt;code&gt;createButtons()&lt;/code&gt; function.&lt;/li&gt;
+&lt;li&gt;Next, we made it possible for the user to open the Preferences on the correct page – in our case, the Debug page – using this code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight highlight-source-java&quot;&gt;
+&lt;pre&gt;&lt;span class=&quot;pl-smi&quot;&gt;PreferencesUtil&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;createPreferenceDialogOn(parent&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;getShell(), &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;org.eclipse.cdt.debug.ui.CDebugPreferencePage&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;null&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;null&lt;/span&gt;)&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;open();
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;“org.eclipse.cdt.debug.ui.CDebugPreferencePage” is the class name we want to load in the debug preferences.&lt;/p&gt;
+&lt;h3&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/Pierre%20Sachot%20-%20week%204.md#cdebugpreferencepage&quot; id=&quot;user-content-cdebugpreferencepage&quot;&gt;&lt;/a&gt;CDebugPreferencePage:&lt;/h3&gt;
+&lt;p&gt;This class is the one which contains the debug preferences page. I set about modifying it so that the CSourceNot Found preferences could be re-set and access to them enabled. This included the option to modify PreferenceMessages.properties which contains the String values of the buttons, and PreferenceMessage.java to declare them and use them. The last thing we did was to create a global value in CCorePreferenceConstants to get and set the display preferences. This we did in 4 stages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First we created a group for the radio buttons. This is in the function createContents().&lt;/li&gt;
+&lt;li&gt;Second we created the variable intended to store the preference value. This value is a String store in the CCorePreferenceConstants class. To get a preference String value, you need to use:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight highlight-source-java&quot;&gt;
+&lt;pre&gt;&lt;span class=&quot;pl-smi&quot;&gt;DefaultScope&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;INSTANCE&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;getNode(&lt;span class=&quot;pl-smi&quot;&gt;CDebugCorePlugin&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;PLUGIN_ID&lt;/span&gt;)&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;get(&lt;span class=&quot;pl-smi&quot;&gt;CCorePreferenceConstants&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;YOUR_PREFERENCE_NAME&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;null&lt;/span&gt;);
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And to store it:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-java&quot;&gt;
+&lt;pre&gt;&lt;span class=&quot;pl-smi&quot;&gt;InstanceScope&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;INSTANCE&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;getNode(&lt;span class=&quot;pl-smi&quot;&gt;CCorePlugin&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;PLUGIN_ID&lt;/span&gt;)&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;put(&lt;span class=&quot;pl-smi&quot;&gt;CCorePreferenceConstants&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;.&lt;/span&gt;YOUR_PREFERENCE_NAME&lt;/span&gt;, &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Your text&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;);
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Here we created a preference named: SHOW_SOURCE_NOT_FOUND_EDITOR which can take 3 values, defined at the begining of the CDebugPreferencePage class:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-java&quot;&gt;
+&lt;pre&gt;&lt;span class=&quot;pl-c&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* Use to display by default the source not found editor&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* @since 6.3&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;SHOW_SOURCE_NOT_FOUND_EDITOR_DEFAULT&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;all_time&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c&quot;&gt;//$NON-NLS-1$&lt;/span&gt;
+
+&lt;span class=&quot;pl-c&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* Use to display all the time the source not found editor&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* @since 6.3&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;SHOW_SOURCE_NOT_FOUND_EDITOR_ALL_THE_TIME&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;all_time&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c&quot;&gt;//$NON-NLS-1$&lt;/span&gt;
+
+&lt;span class=&quot;pl-c&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* Use to display sometimes the source not found editor&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* @since 6.3&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;SHOW_SOURCE_NOT_FOUND_EDITOR_SOMETIMES&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;sometimes&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c&quot;&gt;//$NON-NLS-1$&lt;/span&gt;
+
+&lt;span class=&quot;pl-c&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* Use to don't display the source not found editor&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;* @since 6.3&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;SHOW_SOURCE_NOT_FOUND_EDITOR_NEVER&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;never&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c&quot;&gt;//$NON-NLS-1$&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Third, we needed to find where to set the values and where to get them. So, to set the values on your components, use the &lt;code&gt;setValues()&lt;/code&gt; function.To store a value, you will need to add your code in &lt;code&gt;storeValues()&lt;/code&gt;, like it’s name suggests it will store the value inside of the global preferences variable.&lt;/li&gt;
+&lt;li&gt;The fourth and final stage is really important: – You need to put the default value of the preference you want to add in setDefaultValues() to allows access to the original value of the preferences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/Pierre%20Sachot%20-%20week%204.md#dsfsourcedisplayadapter&quot; id=&quot;user-content-dsfsourcedisplayadapter&quot;&gt;&lt;/a&gt;DsfSourceDisplayAdapter:&lt;/h3&gt;
+&lt;p&gt;This is the class which calls CSourceNotFoundEditor, so here in the function openEditor, we needed to check the preferences options in order to know if it was possible to display CSourceFoundEditor. These checks need to be carried out in openEditor() function because this is the function which opens the CSourceNotFoundEditor. To do that, we created two cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First case in which the user wants to display the Editor all the time&lt;/li&gt;
+&lt;li&gt;Second for when the user only wants to display it if the source file is not found&lt;/li&gt;
+&lt;li&gt;The last case is an exclusion of the “all_time”, so you don’t need to check it because nothing is done in this case.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To do that, we did it like this:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/images/week%204/Screenshot_5.png?raw=true&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;how to display CSourceNotFoundEditor&quot; src=&quot;https://github.com/PierreSachot/Internship-Reports/raw/master/images/week%204/Screenshot_5.png?raw=true&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://github.com/PierreSachot/Internship-Reports/blob/master/Pierre%20Sachot%20-%20week%204.md#conclusion&quot; id=&quot;user-content-conclusion&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Now users have the capacity to disable CSourceNotFoundEditor window altogether or to choose for themselves when to display it. Thus saving time and improving the user experience of the Eclipse debugger. This is a great example of how working on an open source project can really benefit a whole community of users. But, a word of warning, CDT project isn’t the easiest program to develop or the easiest to master, you need to understand other user’s code and if you change it you need to retain its original logic and style. Fiddly perhaps but well worth it! The user community will appreciate your efforts and the flow of coding future work will be smoother and more efficient. A better user experience for everyone.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/1934/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/1934/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=1934&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 17 May 2017 13:36:31 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: EclipseCon Europe 2017 | Call for Papers Open</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/Xt2y9bp7sPk/its-time-submit</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/Xt2y9bp7sPk/its-time-submit</link>
+	<description>Submissions are now open for EclipseCon Europe 2017, October 24 - 26, in Ludwigsburg, Germany.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/Xt2y9bp7sPk&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 17 May 2017 13:29:00 +0000</pubDate>
+</item>
+<item>
+	<title>typefox.io: Theia – One IDE For Desktop &amp; Cloud</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14198</guid>
+	<link>http://typefox.io/theia-one-ide-for-desktop-cloud</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Today, I want to point you at a GitHub repository we have been contributing to for the last couple of weeks. &lt;a href=&quot;https://github.com/theia-ide/theia&quot;&gt;Theia&lt;/a&gt; is a collaborative and open effort to build a new IDE framework in TypeScript.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Yet another IDE?&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;”, You might think. Let me explain the motivation behind it and how its scope is unique compared to existing open-source projects.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Single-Sourcing Desktop &amp;amp; Browser (Cloud) Tools&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Let’s start with the unique selling point: Theia targets IDEs that should &lt;/span&gt;&lt;b&gt;run as native desktop applications&lt;/b&gt; (using &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt;) &lt;b&gt;as well as in modern browsers &lt;/b&gt;(e.g. Chrome).&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So you would build one application and run it in both contexts. Theia even supports a third mode, which is a native desktop app connecting to a remote workspace. No matter if you target primarily desktop or cloud, you can leverage the goodness of web technology and will be well prepared for the future. Although implemented using web technologies, neither VSCode nor Atom support execution in a browser with a remote backend.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;twenty20&quot; style=&quot;width: 100% !important; clear: both;&quot;&gt;&lt;div class=&quot;twentytwenty-container&quot;&gt;&lt;img src=&quot;http://typefox.io/wp-content/uploads/2017/05/Screen-Shot-2017-05-17-at-11.27.54.png&quot; /&gt;&lt;img src=&quot;http://typefox.io/wp-content/uploads/2017/05/Screen-Shot-2017-05-17-at-11.21.08.png&quot; /&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Extensibility&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Theia is an open framework that allows users to compose and tailor their Theia-based applications as they want. Any functionality is implemented as an extension, so it is using the same APIs a third-party extension would use. Theia uses the dependency injection framework &lt;a href=&quot;https://github.com/inversify/InversifyJS&quot;&gt;Inversify.js&lt;/a&gt; to compose and configure the frontend and backend application, which allows for fine-grained control of any used functionality.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Since in Theia there is no two-class treatment between core code and extensions, any third-party code runs in the main application processes with the same rights and responsibilities the core application has. This is a deliberate decision to support &lt;/span&gt;&lt;b&gt;building products based on Theia&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Dock Layout&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Theia focusses on IDE-like applications. That includes developer tools but extends to all kinds of software tools for engineers. We think only splitting an editor is not enough. For such applications, you want to allow representing data in different ways (not only textual) and provide the user more freedom to use the screen estate.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Theia uses the layout manager library &lt;a href=&quot;https://github.com/phosphorjs/phosphor&quot;&gt;phosphor.js&lt;/a&gt;. It supports side panels similar to what JetBrains’ products do and allows the user to layout editors and views as they want in the main area.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;dock_layout&quot; class=&quot;alignnone size-full wp-image-14200&quot; height=&quot;768&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/05/dock_layout.gif&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Language Server Protocol&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Another goal of this effort is to reuse existing components when sensible. The &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;language server protocol&lt;/a&gt; (LSP) is, therefore, an important, central concept. Theia uses Microsoft’s Monaco code editor, for which I already found some positive words &lt;a href=&quot;http://typefox.io/xtext-lsp-vs-xtext-web&quot;&gt;last week&lt;/a&gt;. That said, Theia has a thin generic editor API that shields extensions from using Monaco-specific APIs for the most common tasks. Also, other components, like Eclipse Orion’s code editor, could be utilized as the default editor implementation in Theia as well.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To show-case the LSP support, Theia comes with Eclipse’s Java Language Server which also nicely shows how to add protocol extensions. For instance, the Java LS has a particular URI scheme to open source files from referenced jars, which Theia supports.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;lsp_support&quot; class=&quot;alignnone size-full wp-image-14199&quot; height=&quot;612&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/05/lsp_support.gif&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;TypeScript&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The JavaScript (JS) language is evolving, but the different targeted platforms lag behind. The solution to this is to write code in tomorrow’s language and then use a transpiler to ‘down-level’ the source code to what the targeted platforms require. The two popular transpilers are Babel and TypeScript. In contrast to Babel, which supports the latest versions of JavaScript (ECMAScript), TypeScript goes beyond that and adds a static type system on top.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Furthermore, the TypeScript compiler exposes language services to provide advanced tool support, which is crucial to read and maintain larger software systems. It allows navigating between references and declarations, gives you smart completion proposals and much more. Finally, we are not the only ones believing TypeScript is an excellent choice (read &lt;a href=&quot;https://thenewstack.io/typescript-getting-popular/&quot;&gt;‘Why TypeScript Is Growing More Popular’&lt;/a&gt;).&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Status Quo &amp;amp; Plans&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Today we have the basic architecture in place and know how extensions should work. In the Theia repository, there are two examples (one runs in a browser the other on Electron), which you can try yourself. They allow to navigate within your workspace and open files in code editors. We also have a command registry with the corresponding menu and keybinding services. Depending on whether you run in Electron or a browser the menus will be rendered natively (Electron) or using HTML. The language server protocol is working well, and there are two language servers integrated already: Java and Python. We are going to wrap the TypeScript language service in the LSP, so we can start using Theia to implement Theia. Furthermore, a terminal gives you access to the workspace’s shell.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Don’t treat this as anything like a release as this is only the beginning. But we have laid out a couple of important fundamentals and now is a good time to make it public and get more people involved. The CDT team from Ericsson have already started contributing to Theia and more parties will join soon.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Although Theia might not be ready for production today, but if you are starting a new IDE-like product or looking into migrating the UI technology of an existing one (e.g. Eclipse-based), Theia is worth a consideration. &lt;a href=&quot;http://typefox.io/contact&quot;&gt;Let me know&lt;/a&gt; what you think or whether you have any questions.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 17 May 2017 11:54:40 +0000</pubDate>
+</item>
+<item>
+	<title>Dirk Fauth: OSGi Event Admin – Publish &amp; Subscribe</title>
+	<guid isPermaLink="false">http://blog.vogella.com/?p=7593</guid>
+	<link>http://blog.vogella.com/2017/05/16/osgi-event-admin-publish-subscribe/</link>
+	<description>&lt;p&gt;In this blog post I want to write about the publish &amp;amp; subscribe mechanism in OSGi, provided via the OSGi &lt;em&gt;Event Admin Service&lt;/em&gt;. Of course I will show this in combination with OSGi Declarative Services, because this is the technology I currently like very much, as you probably know from my previous blog posts.&lt;/p&gt;
+&lt;p&gt;I will start with some basics and then show an example as usual. At last I will give some information about how to use the event mechanism in Eclipse RCP development, especially related to the combination between OSGi services and the GUI.&lt;/p&gt;
+&lt;p&gt;If you want to read further details on the Event Admin Service Specification have a look at the &lt;a href=&quot;https://www.osgi.org/developer/specifications/&quot; target=&quot;_blank&quot;&gt;OSGi Spec&lt;/a&gt;. In Release 6 it is covered in the Compendium Specification Chapter 113.&lt;/p&gt;
+&lt;p&gt;Let’s start with the basics. The &lt;em&gt;Event Admin Service&lt;/em&gt; is based on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern&quot; target=&quot;_blank&quot;&gt;Publish-Subscribe pattern&lt;/a&gt;. There is an event publisher and an event consumer. Both do not know each other in any way, which provides a high decoupling. Simplified you could say, the event publisher sends an event to a channel, not knowing if anybody will receive that event. On the other side there is an event consumer ready to receive events, not knowing if there is anybody available for sending events. This simplified view is shown in the following picture:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;simple_event&quot; class=&quot;aligncenter wp-image-7594 size-full&quot; height=&quot;211&quot; src=&quot;http://blog.vogella.com/wp-content/uploads/2017/05/simple_event.png&quot; width=&quot;523&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Technically both sides are using the &lt;em&gt;Event Admin Service&lt;/em&gt; in some way. The event publisher uses it directly to send an event to the channel. The event consumer uses it indirectly by registering an event handler to the EventAdmin to receive events. This can be done programmatically. But with OSGi DS it is very easy to register an event handler by using the whiteboard pattern.&lt;/p&gt;
+&lt;h2&gt;Event&lt;/h2&gt;
+&lt;p&gt;An &lt;code&gt;Event&lt;/code&gt; object has a topic and some event properties. It is an immutable object to ensure that every handler gets the same object with the same state.&lt;/p&gt;
+&lt;p&gt;The topic defines the type of the event and is intended to serve as first-level filter for determining which handlers should receive the event. It is a String arranged in a hierarchical namespace. And the recommendation is to use a convention similar to the Java package name scheme by using reverse domain names (&lt;code&gt;fully/qualified/package/ClassName/ACTION&lt;/code&gt;). Doing this ensures uniqueness of events. This is of course only a recommendation and you are free to use pseudo class names to make the topic better readable.&lt;/p&gt;
+&lt;p&gt;Event properties are used to provide additional information about the event. The key is a String and the value can be technically any object. But it is recommended to only use String objects and primitive type wrappers. There are two reasons for this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Other types cannot be passed to handlers that reside external from the Java VM.&lt;/li&gt;
+&lt;li&gt;Other classes might be mutable, which means any handler that receives the event could change values. This break the immutability rule for events.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Common Bundle&lt;/h2&gt;
+&lt;p&gt;It is some kind of best practice to place common stuff in a common bundle to which the event publisher bundle and the event consumer bundle can have a dependency to. In our case this will only be the definition of the supported topics and property keys in a constants class, to ensure that both implementations share the same definition, without the need to be dependent on each other.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new project &lt;em&gt;org.fipro.mafia.common&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Create a new package &lt;code&gt;org.fipro.mafia.common&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create a new class &lt;code&gt;MafiaBossConstants&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;public final class MafiaBossConstants {
+
+    private MafiaBossConstants() {
+        // private default constructor for constants class
+        // to avoid someone extends the class
+    }
+
+    public static final String TOPIC_BASE = &quot;org/fipro/mafia/Boss/&quot;;
+    public static final String TOPIC_CONVINCE = TOPIC_BASE + &quot;CONVINCE&quot;;
+    public static final String TOPIC_ENCASH = TOPIC_BASE + &quot;ENCASH&quot;;
+    public static final String TOPIC_SOLVE = TOPIC_BASE + &quot;SOLVE&quot;;
+    public static final String TOPIC_ALL = TOPIC_BASE + &quot;*&quot;;
+
+    public static final String PROPERTY_KEY_TARGET = &quot;target&quot;;
+
+}&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;PDE
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;MANIFEST.MF&lt;/em&gt; file and on the &lt;em&gt;Overview&lt;/em&gt; tab set the &lt;em&gt;Version&lt;/em&gt; to 1.0.0 (remove the qualifier).&lt;/li&gt;
+&lt;li&gt;Switch to the &lt;em&gt;Runtime&lt;/em&gt; tab and export the &lt;em&gt;org.fipro.mafia.common&lt;/em&gt; package.&lt;/li&gt;
+&lt;li&gt;Specify the version 1.0.0 on the package via &lt;em&gt;Properties…&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bndtools
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;bnd.bnd&lt;/em&gt; file&lt;/li&gt;
+&lt;li&gt;Add the package &lt;em&gt;org.fipro.mafia.common&lt;/em&gt; to the &lt;em&gt;Export Packages&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In &lt;code&gt;MafiaBossConstants&lt;/code&gt; we specify the topic base with a pseudo class &lt;em&gt;org.fipro.mafia.Boss&lt;/em&gt;, which results in the topic base &lt;em&gt;org/fipro/mafia/Boss&lt;/em&gt;. We specify action topics that start with the topic base and end with the actions CONVINCE, ENCASH and SOLVE. And additionally we specify a topic that starts with the base and ends with the wildcard ‘*’.&lt;/p&gt;
+&lt;p&gt;These constants will be used by the event publisher and the event consumer soon.&lt;/p&gt;
+&lt;h2&gt;Event Publisher&lt;/h2&gt;
+&lt;p&gt;The &lt;em&gt;Event Publisher&lt;/em&gt; uses the &lt;em&gt;Event Admin Service&lt;/em&gt; to send events synchronously or asynchronously. Using DS this is pretty easy.&lt;/p&gt;
+&lt;p&gt;We will create an &lt;em&gt;Event Publisher&lt;/em&gt; based on the idea of a mafia boss. The boss simply commands a job execution and does not care who is doing it. Also it is not of interest if there are many people doing the same job. The job has to be done!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new project &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;PDE
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;MANIFEST.MF&lt;/em&gt; file of the &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt; project and switch to the &lt;em&gt;Dependencies&lt;/em&gt; tab&lt;/li&gt;
+&lt;li&gt;Add the following dependencies on the &lt;em&gt;Imported Packages&lt;/em&gt; side:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common (1.0.0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.osgi.service.component.annotations (1.3.0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.osgi.service.event (1.3.0)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mark &lt;em&gt;org.osgi.service.component.annotations&lt;/em&gt; as &lt;em&gt;Optional&lt;/em&gt; via &lt;em&gt;Properties…&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Add the upper version boundaries to the &lt;em&gt;Import-Package&lt;/em&gt; statements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bndtools
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;bnd.bnd&lt;/em&gt; file of the &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt; project and switch to the &lt;em&gt;Build&lt;/em&gt; tab&lt;/li&gt;
+&lt;li&gt;Add the following bundles to the &lt;em&gt;Build Path&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.eventadmin&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;br /&gt;
+Adding &lt;code&gt;org.osgi.service.event&lt;/code&gt; to the &lt;em&gt;Imported Packages&lt;/em&gt; with PDE on a current Equinox target will provide a package version 1.3.1. You need to change this to 1.3.0 if you intend to run the same bundle with a different &lt;em&gt;Event Admin Service&lt;/em&gt; implementation. In general it is a bad practice to rely on a bugfix version. Especially when thinking about interfaces, as any change to an interface typically is a breaking change.&lt;br /&gt;
+To clarify the statement above. As the package &lt;code&gt;org.osgi.service.event&lt;/code&gt; contains more than just the &lt;code&gt;EventAdmin&lt;/code&gt; interface, the bugfix version increase is surely correct in Equinox, as there was probably a bugfix in some code inside the package. The only bad thing is to restrict the package wiring on the consumer side to a bugfix version, as this would restrict your code to only run with the Equinox implementation of the &lt;em&gt;Event Admin Service&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new package &lt;code&gt;org.fipro.mafia.boss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create a new class &lt;code&gt;BossCommand&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = {
+        &quot;osgi.command.scope=fipro&quot;,
+        &quot;osgi.command.function=boss&quot; },
+    service = BossCommand.class)
+public class BossCommand {
+
+    @Reference
+    EventAdmin eventAdmin;
+
+    @Descriptor(&quot;As a mafia boss you want something to be done&quot;)
+    public void boss(
+        @Descriptor(&quot;the command that should be executed. &quot;
+            + &quot;possible values are: convince, encash, solve&quot;)
+        String command,
+        @Descriptor(&quot;who should be 'convinced', &quot;
+            + &quot;'asked for protection money' or 'finally solved'&quot;)
+        String target) {
+
+        // create the event properties object
+        Map&amp;lt;String, Object&amp;gt; properties = new HashMap&amp;lt;&amp;gt;();
+        properties.put(MafiaBossConstants.PROPERTY_KEY_TARGET, target);
+        Event event = null;
+
+        switch (command) {
+            case &quot;convince&quot;:
+                event = new Event(MafiaBossConstants.TOPIC_CONVINCE, properties);
+                break;
+            case &quot;encash&quot;:
+                event = new Event(MafiaBossConstants.TOPIC_ENCASH, properties);
+                break;
+            case &quot;solve&quot;:
+                event = new Event(MafiaBossConstants.TOPIC_SOLVE, properties);
+                break;
+            default:
+                System.out.println(&quot;Such a command is not known!&quot;);
+        }
+
+        if (event != null) {
+            eventAdmin.postEvent(event);
+        }
+    }
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+The code snippet above uses the annotation &lt;code&gt;@Descriptor&lt;/code&gt; to specify additional information for the command. This information will be shown when executing &lt;strong&gt;&lt;em&gt;help boss&lt;/em&gt;&lt;/strong&gt; in the OSGi console. To make this work with PDE you need to import the package &lt;code&gt;org.apache.felix.service.command&lt;/code&gt; with &lt;code&gt;status=provisional&lt;/code&gt;. Because the PDE editor does not support adding additional information to package imports, you need to do this manually in the &lt;em&gt;MANIFEST.MF&lt;/em&gt; tab of the &lt;em&gt;Plugin Manifest Editor&lt;/em&gt;. The &lt;code&gt;Import-Package&lt;/code&gt; header would look like this:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;Import-Package: org.apache.felix.service.command;status=provisional;version=&quot;0.10.0&quot;,
+ org.fipro.mafia.common;version=&quot;[1.0.0,2.0.0)&quot;,
+ org.osgi.service.component.annotations;version=&quot;[1.3.0,2.0.0)&quot;;resolution:=optional,
+ org.osgi.service.event;version=&quot;[1.3.0,2.0.0)&quot;&lt;/pre&gt;
+&lt;p&gt;With Bndtools you need to add &lt;code&gt;org.apache.felix.gogo.runtime&lt;/code&gt; to the &lt;em&gt;Build Path&lt;/em&gt; in the &lt;em&gt;bnd.bnd&lt;/em&gt; file so the &lt;code&gt;@Descriptor&lt;/code&gt; annotation can be resolved.&lt;/p&gt;
+&lt;p&gt;There are three things to notice in the &lt;code&gt;BossCommand&lt;/code&gt; implementation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a mandatory reference to &lt;code&gt;EventAdmin&lt;/code&gt; which is required for sending events.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Event&lt;/code&gt; objects are created using a specific topic and a &lt;code&gt;Map&amp;lt;String, Object&amp;gt;&lt;/code&gt; that contains the additional event properties.&lt;/li&gt;
+&lt;li&gt;The event is sent asynchronously via &lt;code&gt;EventAdmin#postEvent(Event)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;BossCommand&lt;/code&gt; will create an event using the topic that corresponds to the given &lt;em&gt;command&lt;/em&gt; parameter. The &lt;em&gt;target&lt;/em&gt; parameter will be added to a map that is used as event properties. This event will then be send to a channel via the &lt;code&gt;EventAdmin&lt;/code&gt;. In the example we use &lt;code&gt;EventAdmin#postEvent(Event)&lt;/code&gt; which sends the event asynchronously. That means, we send the event but do not wait until available handlers have finished the processing. If it is required to wait until the processing is done, you need to use &lt;code&gt;EventAdmin#sendEvent(Event)&lt;/code&gt;, which sends the event synchronously. But sending events synchronously is significantly more expensive, as the &lt;em&gt;Event Admin Service&lt;/em&gt; implementation needs to ensure that every handler has finished processing before it returns. It is therefore recommended to prefer the usage of asynchronous event processing.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+The code snippet uses the &lt;em&gt;Field Strategy&lt;/em&gt; for referencing the &lt;code&gt;EventAdmin&lt;/code&gt;. If you are using PDE this will work with Eclipse Oxygen. With Eclipse Neon you need to use the &lt;em&gt;Event Strategy&lt;/em&gt;. In short, you need to write the &lt;em&gt;bind&lt;/em&gt;-event-method for referencing &lt;code&gt;EventAdmin&lt;/code&gt; because Equinox DS supports only DS 1.2 and the annotation processing in Eclipse Neon also only supports the DS 1.2 style annotations.&lt;/p&gt;
+&lt;h2&gt;Event Consumer&lt;/h2&gt;
+&lt;p&gt;In our example the boss does not have to tell someone explicitly to do the job. He just mentions that the job has to be done. Let’s assume we have a small organization without hierarchies. So we skip the captains etc. and simply implement some soldiers. They have specialized, so we have three soldiers, each listening to one special topic.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new project &lt;em&gt;org.fipro.mafia.soldier&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;PDE
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;MANIFEST.MF&lt;/em&gt; file of the &lt;em&gt;org.fipro.mafia.soldier&lt;/em&gt; project and switch to the &lt;em&gt;Dependencies&lt;/em&gt; tab&lt;/li&gt;
+&lt;li&gt;Add the following dependencies on the &lt;em&gt;Imported Packages&lt;/em&gt; side:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common (1.0.0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.osgi.service.component.annotations (1.3.0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.osgi.service.event (1.3.0)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mark &lt;em&gt;org.osgi.service.component.annotations&lt;/em&gt; as &lt;em&gt;Optional&lt;/em&gt; via &lt;em&gt;Properties…&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Add the upper version boundaries to the &lt;em&gt;Import-Package&lt;/em&gt; statements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bndtools
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;bnd.bnd&lt;/em&gt; file of the &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt; project and switch to the &lt;em&gt;Build&lt;/em&gt; tab&lt;/li&gt;
+&lt;li&gt;Add the following bundles to the &lt;em&gt;Build Path&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.eventadmin&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new package &lt;code&gt;org.fipro.mafia.soldier&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create the following three soldiers &lt;code&gt;Luigi&lt;/code&gt;, &lt;code&gt;Mario&lt;/code&gt; and &lt;code&gt;Giovanni&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = EventConstants.EVENT_TOPIC
+        + &quot;=&quot; + MafiaBossConstants.TOPIC_CONVINCE)
+public class Luigi implements EventHandler {
+
+    @Override
+    public void handleEvent(Event event) {
+        System.out.println(&quot;Luigi: &quot;
+        + event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET)
+        + &quot; was 'convinced' to support our family&quot;);
+    }
+
+}&lt;/pre&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = EventConstants.EVENT_TOPIC
+        + &quot;=&quot; + MafiaBossConstants.TOPIC_ENCASH)
+public class Mario implements EventHandler {
+
+    @Override
+    public void handleEvent(Event event) {
+        System.out.println(&quot;Mario: &quot;
+        + event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET)
+        + &quot; payed for protection&quot;);
+    }
+
+}&lt;/pre&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = EventConstants.EVENT_TOPIC
+        + &quot;=&quot; + MafiaBossConstants.TOPIC_SOLVE)
+public class Giovanni implements EventHandler {
+
+    @Override
+    public void handleEvent(Event event) {
+        System.out.println(&quot;Giovanni: We 'solved' the issue with &quot;
+        + event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET));
+    }
+
+}&lt;/pre&gt;
+&lt;p&gt;Technically we have created special &lt;code&gt;EventHandler&lt;/code&gt; for different topics. You should notice the following facts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are using OSGi DS to register the event handler using the whiteboard pattern. On the consumer side we don’t need to know the &lt;code&gt;EventAdmin&lt;/code&gt; itself.&lt;/li&gt;
+&lt;li&gt;We need to implement &lt;code&gt;org.osgi.service.event.EventHandler&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;We need to register for a topic via service property &lt;strong&gt;&lt;em&gt;event.topics&lt;/em&gt;&lt;/strong&gt;, otherwise the handler will not listen for any event.&lt;/li&gt;
+&lt;li&gt;Via &lt;code&gt;Event#getProperty(String)&lt;/code&gt; we are able to access event property values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following service properties are supported by event handlers:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Service Registration Property&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;event.topics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Specify the topics of interest to an &lt;code&gt;EventHandler&lt;/code&gt; service. This property is mandatory.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i&gt;event.filter&lt;/i&gt;&lt;/td&gt;
+&lt;td&gt;Specify a filter to further select events of interest to an &lt;code&gt;EventHandler&lt;/code&gt; service. This property is optional.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;event.delivery&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Specifying the delivery qualities requested by an &lt;code&gt;EventHandler&lt;/code&gt; service. This property is optional.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The property keys and some default keys for event properties are specified in &lt;code&gt;org.osgi.service.event.EventConstants&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Launch the example&lt;/h2&gt;
+&lt;p&gt;Before moving on and explaining further, let’s start the example and verify that each command from the boss is only handled by one soldier.&lt;/p&gt;
+&lt;p&gt;With PDE perform the following steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the menu entry &lt;em&gt;Run -&amp;gt; Run Configurations…&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;In the tree view, right click on the &lt;em&gt;OSGi Framework&lt;/em&gt; node and select &lt;em&gt;New&lt;/em&gt; from the context menu&lt;/li&gt;
+&lt;li&gt;Specify a name, e.g. &lt;em&gt;OSGi Event Mafia&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Deselect All&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Select the following bundles&lt;br /&gt;
+(note that we are using Eclipse Oxygen, in previous Eclipse versions &lt;em&gt;org.apache.felix.scr&lt;/em&gt; and &lt;em&gt;org.eclipse.osgi.util&lt;/em&gt; are not required)&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Application bundles&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.boss&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.soldier&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Console bundles&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.gogo.command&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.gogo.runtime&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.gogo.shell&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.equinox.console&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSGi framework and DS bundles&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.apache.felix.scr&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.equinox.ds&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.osgi&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.osgi.services&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.osgi.util&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equinox Event Admin&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.eclipse.equinox.event&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ensure that &lt;em&gt;Default Auto-Start&lt;/em&gt; is set to &lt;em&gt;true&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;em&gt;Run&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With Bndtools perform the following steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;em&gt;launch.bndrun&lt;/em&gt; file in the &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt; project&lt;/li&gt;
+&lt;li&gt;On the &lt;em&gt;Run&lt;/em&gt; tab add the following bundles to the &lt;em&gt;Run Requirements&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.boss&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.common&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;org.fipro.mafia.soldier&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &lt;em&gt;Resolve&lt;/em&gt; to ensure all required bundles are added to the &lt;em&gt;Run Bundles&lt;/em&gt; via auto-resolve&lt;/li&gt;
+&lt;li&gt;Click &lt;em&gt;Run OSGi&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Execute the boss command to see the different results. This can look similar to the following:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;osgi&amp;gt; boss convince Angelo
+osgi&amp;gt; Luigi: Angelo was 'convinced' to support our family
+boss encash Wong
+osgi&amp;gt; Mario: Wong payed for protection
+boss solve Tattaglia
+osgi&amp;gt; Giovanni: We 'solved' the issue with Tattaglia&lt;/pre&gt;
+&lt;h2&gt;Handle multiple event topics&lt;/h2&gt;
+&lt;p&gt;It is also possible to register for multiple event topics. Say &lt;code&gt;Pete&lt;/code&gt; is a tough guy who is good in ENCASH and SOLVE issues. So he registers for those topics.&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = {
+        EventConstants.EVENT_TOPIC + &quot;=&quot; + MafiaBossConstants.TOPIC_CONVINCE,
+        EventConstants.EVENT_TOPIC + &quot;=&quot; + MafiaBossConstants.TOPIC_SOLVE })
+public class Pete implements EventHandler {
+
+    @Override
+    public void handleEvent(Event event) {
+        System.out.println(&quot;Pete: I took care of &quot;
+        + event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET));
+    }
+
+}&lt;/pre&gt;
+&lt;p&gt;As you can see the service property &lt;em&gt;&lt;strong&gt;event.topics&lt;/strong&gt;&lt;/em&gt; is declared multiple times via the &lt;code&gt;@Component&lt;/code&gt; annotation type element property. This way an array of Strings is configured for the service property, so the handler reacts on both topics.&lt;/p&gt;
+&lt;p&gt;If you execute the example now and call &lt;em&gt;boss convince xxx&lt;/em&gt; or &lt;em&gt;boss solve xxx&lt;/em&gt; you will notice that &lt;code&gt;Pete&lt;/code&gt; is also responding.&lt;/p&gt;
+&lt;p&gt;It is also possible to use the asterisk wildcard as last token of a topic. This way the handler will receive all events for topics that start with the left side of the wildcard.&lt;/p&gt;
+&lt;p&gt;Let’s say we have a very motivated young guy called &lt;code&gt;Ray&lt;/code&gt; who wants to prove himself to the boss. So he takes every command from the boss. For this we set the service property &lt;code&gt;event.topics=org/fipro/mafia/Boss/*&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = EventConstants.EVENT_TOPIC
+        + &quot;=&quot; + MafiaBossConstants.TOPIC_ALL)
+public class Ray implements EventHandler {
+
+    @Override
+    public void handleEvent(Event event) {
+        String topic = event.getTopic();
+        Object target = event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET);
+
+        switch (topic) {
+            case MafiaBossConstants.TOPIC_CONVINCE:
+                System.out.println(&quot;Ray: I helped in punching the shit out of&quot; + target);
+                break;
+            case MafiaBossConstants.TOPIC_ENCASH:
+                System.out.println(&quot;Ray: I helped getting the money from &quot; + target);
+                break;
+            case MafiaBossConstants.TOPIC_SOLVE:
+                System.out.println(&quot;Ray: I helped killing &quot; + target);
+                break;
+            default: System.out.println(&quot;Ray: I helped with whatever was requested!&quot;);
+        }
+    }
+
+}&lt;/pre&gt;
+&lt;p&gt;Executing the example again will show that &lt;code&gt;Ray&lt;/code&gt; is responding on every boss command.&lt;/p&gt;
+&lt;p&gt;It is also possible to filter events based on event properties by setting the service property &lt;em&gt;&lt;strong&gt;event.filter&lt;/strong&gt;&lt;/em&gt;. The value needs to be an LDAP filter. For example, although &lt;code&gt;Ray&lt;/code&gt; is a motivated and loyal soldier, he refuses to handle events that target his friend &lt;em&gt;Sonny&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The following snippet shows how to specify a filter that excludes event processing if the target is &lt;em&gt;Sonny&lt;/em&gt;.&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = {
+        EventConstants.EVENT_TOPIC + &quot;=&quot; + MafiaBossConstants.TOPIC_ALL,
+        EventConstants.EVENT_FILTER + &quot;=&quot; + &quot;(!(target=Sonny))&quot;})
+public class Ray implements EventHandler {&lt;/pre&gt;
+&lt;p&gt;Execute the example and call two commands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;boss solve Angelo&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;boss solve Sonny&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will notice that &lt;code&gt;Ray&lt;/code&gt; will respond on the first call, but he will not show up on the second call.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+The filter expression can only be applied on event properties. It is not possible to use that filter on service properties.&lt;/p&gt;
+&lt;p&gt;At last it is possible to configure in which order the event handler wants the events to be delivered. This can either be ordered in the same way they are posted, or unordered. The service property &lt;strong&gt;&lt;em&gt;event.delivery&lt;/em&gt;&lt;/strong&gt; can be used to change the default behavior, which is to receive the events from a single thread in the same order as they were posted.&lt;/p&gt;
+&lt;p&gt;If an event handler does not need to receive events in the order as they were posted, you need to specify the service property &lt;code&gt;event.delivery=async.unordered&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Component(
+    property = {
+        EventConstants.EVENT_TOPIC + &quot;=&quot;
+            + MafiaBossConstants.TOPIC_ALL,
+        EventConstants.EVENT_FILTER + &quot;=&quot;
+            + &quot;(!(target=Sonny))&quot;,
+        EventConstants.EVENT_DELIVERY + &quot;=&quot;
+            + EventConstants.DELIVERY_ASYNC_UNORDERED})&lt;/pre&gt;
+&lt;p&gt;The value for ordered delivery is &lt;code&gt;async.ordered&lt;/code&gt; which is the default. The values are also defined in the &lt;code&gt;EventConstants&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Capabilities&lt;/h2&gt;
+&lt;p&gt;By using the event mechanism the code is highly decoupled. In general this is a good thing, but it also makes it hard to identify issues. One common issue in Eclipse RCP for example is to forget to automatically start the bundle &lt;em&gt;org.eclipse.equinox.event&lt;/em&gt;. Things will simply not work in such a case, without any errors or warnings shown on startup.&lt;/p&gt;
+&lt;p&gt;The reason for this is that the related interfaces like &lt;code&gt;EventAdmin&lt;/code&gt; and &lt;code&gt;EventHandler&lt;/code&gt; are located in the bundle &lt;em&gt;org.eclipse.osgi.services&lt;/em&gt;. The bundle wiring therefore shows that everything is ok on startup, because all interfaces and classes are available. But we require a bundle that contains an implementation of &lt;code&gt;EventAdmin&lt;/code&gt;. If you remember my &lt;a href=&quot;http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/&quot; target=&quot;_blank&quot;&gt;Getting Started Tutorial&lt;/a&gt;, such a requirement can be specified by using capabilities.&lt;/p&gt;
+&lt;p&gt;To show the implications, let’s play with the &lt;em&gt;Run Configuration&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uncheck &lt;em&gt;org.eclipse.equinox.event&lt;/em&gt; from the list of bundles&lt;/li&gt;
+&lt;li&gt;Launch the configuration&lt;/li&gt;
+&lt;li&gt;execute &lt;code&gt;lb&lt;/code&gt; on the command line (or &lt;code&gt;ss&lt;/code&gt; on Equinox if you are more familiar with that) and check the bundle states
+&lt;ul&gt;
+&lt;li&gt;Notice that all bundles are in ACTIVE state&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;execute &lt;code&gt;scr:list&lt;/code&gt; (or &lt;code&gt;list&lt;/code&gt; on Equinox &amp;lt; Oxygen) to check the state of the DS components
+&lt;ul&gt;
+&lt;li&gt;Notice that &lt;code&gt;org.fipro.mafia.boss.BossCommand&lt;/code&gt; has an &lt;em&gt;unsatisfied reference&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Notice that all other &lt;code&gt;EventHandler&lt;/code&gt; services are &lt;em&gt;satisfied&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That is of course a the correct behavior. The &lt;code&gt;BossCommand&lt;/code&gt; service has a mandatory reference to &lt;code&gt;EventAdmin&lt;/code&gt; and there is no such service available. So it has an &lt;em&gt;unsatisfied reference&lt;/em&gt;. The &lt;code&gt;EventHandler&lt;/code&gt; implementations do not have such a dependency, so they are satisfied. And that is even fine when thinking in the publish &amp;amp; subscribe pattern. They can be active and waiting for events to process, even if there is nobody available to send an event. But it makes it hard to find the issue. And when using Tycho and the Surefire Plugin to execute tests, it will even never work because nobody tells the test runtime that &lt;em&gt;org.eclipse.equinox.event&lt;/em&gt; needs to be available and started in advance.&lt;/p&gt;
+&lt;p&gt;This can be solved by adding the &lt;code&gt;Require-Capability&lt;/code&gt; header to require an &lt;code&gt;osgi.service&lt;/code&gt; for &lt;code&gt;objectClass=org.osgi.service.event.EventAdmin&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;Require-Capability: osgi.service;
+ filter:=&quot;(objectClass=org.osgi.service.event.EventAdmin)&quot;&lt;/pre&gt;
+&lt;p&gt;By specifying the &lt;code&gt;Require-Capability&lt;/code&gt; header like above, the capability will be checked when the bundles are resolved. So starting the example after the &lt;code&gt;Require-Capability&lt;/code&gt; header was added will show an error and the bundle &lt;em&gt;org.fipro.mafia.boss&lt;/em&gt; will not be activated.&lt;/p&gt;
+&lt;p&gt;If you add the bundle &lt;em&gt;org.eclipse.equinox.event&lt;/em&gt; again to the &lt;em&gt;Run Configuration&lt;/em&gt; and launch it again, there are no issues.&lt;/p&gt;
+&lt;p&gt;As p2 does still not support OSGi capabilities, the &lt;em&gt;p2.inf&lt;/em&gt; file needs to be created in the &lt;em&gt;META-INF&lt;/em&gt; folder with the following content:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;requires.1.namespace = osgi.service
+requires.1.name = org.osgi.service.event.EventAdmin&lt;/pre&gt;
+&lt;p&gt;Typically you would specify the &lt;code&gt;Require-Capability&lt;/code&gt; to the &lt;code&gt;EventAdmin&lt;/code&gt; service with the directive &lt;code&gt;effective:=active&lt;/code&gt;. This implies that the OSGi framework will resolve the bundle &lt;span style=&quot;text-decoration: underline;&quot;&gt;without&lt;/span&gt; checking if another bundle provides the capability. It can then be more seen as a documentation which services are required from looking into the &lt;em&gt;MANIFEST.MF&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Important Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+Specifying the &lt;code&gt;Require-Capability&lt;/code&gt; header and the p2 capabilities for &lt;code&gt;org.osgi.service.event.EventAdmin&lt;/code&gt; will only work with Eclipse Oxygen. I contributed the necessary changes to Equinox for Oxygen M1 with &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=416047&quot; target=&quot;_blank&quot;&gt;Bug 416047&lt;/a&gt;. With a &lt;em&gt;org.eclipse.equinox.event&lt;/em&gt; bundle in a version &amp;gt;= 1.4.0 you should be able to specify the capabilities. In previous versions the necessary &lt;code&gt;Provide-Capability&lt;/code&gt; and p2 capability configuration in that bundle are missing.&lt;/p&gt;
+&lt;h2&gt;Handling events in Eclipse RCP UI&lt;/h2&gt;
+&lt;p&gt;When looking at the architecture of an Eclipse RCP application, you will notice that the UI layer is not created via OSGi DS (actually that is not a surprise!). And we can not simply say that our view parts are created via DS, because the lifecycle of a part is controlled by other mechanics. But as an Eclipse RCP application is typcially an application based on OSGi, all the OSGi mechanisms can be used. Of course not that convenient as with using OSGi DS directly.&lt;/p&gt;
+&lt;p&gt;The direction from the UI layer to the OSGi service layer is pretty easy. You simply need to retrieve the service you want to uw3. With Eclipse 4 you simply get the desired service injected using &lt;code&gt;@Inject&lt;/code&gt; or &lt;code&gt;@Inject&lt;/code&gt; in combination with &lt;code&gt;@Service&lt;/code&gt; since Eclipse Oxygen (see &lt;a href=&quot;http://blog.vogella.com/2017/03/15/osgi-declarative-services-news-in-eclipse-oxygen/&quot; target=&quot;_blank&quot;&gt;OSGi Declarative Services news in Eclipse Oxygen&lt;/a&gt;). With Eclipse 3.x you needed to retrieve the service programmatically via the &lt;code&gt;BundleContext&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The other way to communicate from a service to the UI layer is something different. There are two ways to consider from my point of view:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;make use of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Observer_pattern&quot; target=&quot;_blank&quot;&gt;Observer pattern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;make use of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern&quot; target=&quot;_blank&quot;&gt;Publish &amp;amp; Subscribe pattern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This blog post is about the event mechanism in OSGi, so I don’t want to go in detail with the observer pattern approach. It simply means that you extend the service interface to accept listeners to perform callbacks. Which in return means you need to retrieve the service in the view part for example, and register a callback function from there.&lt;/p&gt;
+&lt;p&gt;With the Publish &amp;amp; Subscribe pattern we register an &lt;code&gt;EventHandler&lt;/code&gt; that reacts on events. It is a similar approach to the Observer pattern, with some slight differences. But this is not a design pattern blog post, we are talking about the event mechanism. And we already registered an &lt;code&gt;EventHandler&lt;/code&gt; using OSGi DS. The difference to the scenario using DS is that we need to register the &lt;code&gt;EventHandler&lt;/code&gt; programmatically. For OSGi experts that used the event mechanism before DS came up, this is nothing new. For all others that learn about it, it could be interesting.&lt;/p&gt;
+&lt;p&gt;The following snippet shows how to retrieve a &lt;code&gt;BundleContext&lt;/code&gt; instance and register a service programmatically. In earlier days this was done in an &lt;code&gt;Activator&lt;/code&gt;, as there you have access to the &lt;code&gt;BundleContext&lt;/code&gt;. Nowadays it is recommended to use the &lt;code&gt;FrameworkUtil&lt;/code&gt; class to retrieve the &lt;code&gt;BundleContext&lt;/code&gt; when needed, and to avoid &lt;code&gt;Activator&lt;/code&gt;s to reduce startup time.&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;private ServiceRegistration&amp;lt;?&amp;gt; eventHandler;
+
+...
+
+// retrieve the bundle of the calling class
+Bundle bundle = FrameworkUtil.getBundle(getClass());
+BundleContext bc = (bundle != null) ? bundle.getBundleContext() : null;
+if (bc != null) {
+    // create the service properties instance
+    Dictionary&amp;lt;String, Object&amp;gt; properties = new Hashtable&amp;lt;&amp;gt;();
+    properties.put(EventConstants.EVENT_TOPIC, MafiaBossConstants.TOPIC_ALL);
+    // register the EventHandler service
+    eventHandler = bc.registerService(
+        EventHandler.class.getName(),
+        new EventHandler() {
+
+            @Override
+            public void handleEvent(Event event) {
+                // ensure to update the UI in the UI thread
+                Display.getDefault().asyncExec(() -&amp;gt; handlerLabel.setText(
+                        &quot;Received boss command &quot;
+                            + event.getTopic()
+                            + &quot; for target &quot;
+                            + event.getProperty(MafiaBossConstants.PROPERTY_KEY_TARGET)));
+            }
+        },
+        properties);
+}&lt;/pre&gt;
+&lt;p&gt;This code can be technically added anywhere in the UI code, e.g. in a view, an editor or a handler. But of course you should be aware that the event handler also should be unregistered once the connected UI class is destroyed. For example, you implement a view part that registers a listener similar to the above to update the UI everytime an event is received. That means the handler has a reference to a UI element that should be updated. If the part is destroyed, also the UI element is destroyed. If you don’t unregister the &lt;code&gt;EventHandler&lt;/code&gt; when the part is destroyed, it will still be alive and react on events and probably cause exceptions without proper disposal checks. It is also a cause for memory leaks, as the &lt;code&gt;EventHandler&lt;/code&gt; references a UI element instance that is already disposed but can not be cleaned up by the GC as it is still referenced.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+The event handling is executed in its own event thread. Updates to the UI can only be performed in the &lt;em&gt;main&lt;/em&gt; or &lt;em&gt;UI thread&lt;/em&gt;, otherwise you will get a &lt;code&gt;SWTException&lt;/code&gt; for &lt;em&gt;Invalid thread access&lt;/em&gt;. Therefore it is necessary to ensure that UI updates performed in an event handler are executed in the UI thread. For further information have a look at &lt;a href=&quot;http://www.vogella.com/tutorials/EclipseJobs/article.html&quot; target=&quot;_blank&quot;&gt;Eclipse Jobs and Background Processing&lt;/a&gt;.&lt;br /&gt;
+For the UI synchronization you should also consider using asynchronous execution via &lt;code&gt;Display#asyncExec()&lt;/code&gt; or &lt;code&gt;UISynchronize#asyncExec()&lt;/code&gt;. Using synchronous execution via &lt;code&gt;syncExec()&lt;/code&gt; will block the event handler thread until the UI update is done.&lt;/p&gt;
+&lt;p&gt;If you stored the &lt;code&gt;ServiceRegistration&lt;/code&gt; object returned by &lt;code&gt;BundleContext#registerService()&lt;/code&gt; as shown in the example above, the following snippet can be used to unregister the handler if the part is destroyed:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;if (eventHandler != null) {
+    eventHandler.unregister();
+}&lt;/pre&gt;
+&lt;p&gt;In Eclipse 3.x this needs to be done in the overriden &lt;code&gt;dispose()&lt;/code&gt; method. In Eclipse 4 it can be done in the method annotated with &lt;code&gt;@PreDestroy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+Ensure that the bundle that contains the code is in ACTIVE state so there is a &lt;code&gt;BundleContext&lt;/code&gt;. This can be achieved by setting &lt;code&gt;Bundle-ActivationPolicy: lazy&lt;/code&gt; in the &lt;em&gt;MANIFEST.MF&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Handling events in Eclipse RCP UI with Eclipse 4&lt;/h2&gt;
+&lt;p&gt;In Eclipse 4 the event handling mechanism is provided to the RCP development via the &lt;code&gt;EventBroker&lt;/code&gt;. The &lt;code&gt;EventBroker&lt;/code&gt; is a service that uses the &lt;code&gt;EventAdmin&lt;/code&gt; and additionally provides injection support. To learn more about the &lt;code&gt;EventBroker&lt;/code&gt; and the event mechanism provided by Eclipse 4 you should read the related tutorials, like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vogella.com/tutorials/Eclipse4EventSystem/article.html&quot; target=&quot;_blank&quot;&gt;Eclipse 4 event system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.codecentric.de/en/2015/04/osgi-declarative-services-and-the-event-bus-eclipse-rcp-cookbook/&quot; target=&quot;_blank&quot;&gt;OSGi declarative services and the event bus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are focusing on the event consumer here. Additionally to registering the &lt;code&gt;EventHandler&lt;/code&gt; programmatically, it is possible in Eclipse 4 to specify a method for method injection that is called on event handling by additionally providing support for injection.&lt;/p&gt;
+&lt;p&gt;Such an event handler method looks similar to the following snippet:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;@Inject
+@Optional
+void handleConvinceEvent(
+        @UIEventTopic(MafiaBossConstants.TOPIC_CONVINCE) String target) {
+    e4HandlerLabel.setText(&quot;Received boss CONVINCE command for &quot; + target);
+}&lt;/pre&gt;
+&lt;p&gt;By using &lt;code&gt;@UIEventTopic&lt;/code&gt; you ensure that the code is executed in the UI thread. If you don’t care about the UI thread, you can use &lt;code&gt;@EventTopic&lt;/code&gt; instead. The handler that is registered in the back will also be automatically unregistered if the containing instance is destroyed.&lt;/p&gt;
+&lt;p&gt;While the method gets directly invoked as event handler, the injection does not work without modifications on the event producer side. For this the data that should be used for injection needs to be added to the event properties for the key &lt;em&gt;&lt;strong&gt;org.eclipse.e4.data&lt;/strong&gt;&lt;/em&gt;. This key is specified as a constant in &lt;code&gt;IEventBroker&lt;/code&gt;. But using the constant would also introduce a dependency to &lt;em&gt;org.eclipse.e4.core.services&lt;/em&gt;, which is not always intended for event producer bundles. Therefore modifying the generation of the event properties map in &lt;code&gt;BossCommand&lt;/code&gt; will make the E4 event handling injection work:&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;// create the event properties object
+Map&amp;lt;String, Object&amp;gt; properties = new HashMap&amp;lt;&amp;gt;();
+properties.put(MafiaBossConstants.PROPERTY_KEY_TARGET, target);
+properties.put(&quot;org.eclipse.e4.data&quot;, target);
+&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+The &lt;code&gt;EventBroker&lt;/code&gt; additionally adds the topic to the event properties for the key &lt;em&gt;&lt;strong&gt;event.topics&lt;/strong&gt;&lt;/em&gt;. In Oxygen it does not seem to be necessary anymore.&lt;/p&gt;
+&lt;p&gt;The sources for this tutorial are hosted on GitHub in the already existing projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fipro78/osgi-ds-getting-started-pde&quot; target=&quot;_blank&quot;&gt;DS Getting Started (PDE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fipro78/osgi-ds-getting-started-bndtools&quot; target=&quot;_blank&quot;&gt;DS Getting Started (Bndtools)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The PDE version also includes a sample project &lt;em&gt;org.fipro.mafia.ui&lt;/em&gt; which is a very simple RCP application that shows the usage of the event handler in a view part.&lt;/p&gt;</description>
+	<pubDate>Tue, 16 May 2017 06:49:03 +0000</pubDate>
+</item>
+<item>
+	<title>Sebastian Zarnekow: Moving On - Part 2</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-6255758224607466565.post-6920303218825772190</guid>
+	<link>http://zarnekow.blogspot.com/2017/05/moving-on-part-2.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;A big thank you for all the nice feedback and encouraging words that I received after my announcement to leave SMACC. Now, that I’ve had my last day at the company, I think it’s time to raise the curtain. And there aren’t too many surprises behind it, I guess.&lt;br /&gt;From 01 June 2017 on, I’ll be a freelancer and professional consultant. I will build solutions for software developers and solve language engineering problems for my customers. My goal is to help developers and domain experts sharpening their tools, so that they can tackle their business challenges more efficiently.&lt;br /&gt;Also I will work closely with the great people and friends from &lt;a href=&quot;https://www.itemis.de/&quot; target=&quot;_blank&quot;&gt;itemis&lt;/a&gt; and be part of the growing team in the &lt;a href=&quot;https://www.google.de/maps/dir//Friedrichstra%C3%9Fe+68,+10117+Berlin/&quot; target=&quot;_blank&quot;&gt;Berlin branch&lt;/a&gt;. Of course I’m looking forward to contributing to &lt;a href=&quot;http://www.eclipse.org/Xtext/&quot; target=&quot;_blank&quot;&gt;Xtext&lt;/a&gt; again. After being absent for more than 15 months, a few things changed in the project, but there are plenty of interesting topics to tackle in the framework, for sure. Time to get my hands dirty!&lt;br /&gt;Long story short: I’m happy to be back :)&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 15 May 2017 19:08:17 +0000</pubDate>
+	<author>noreply@blogger.com (Sebastian Zarnekow)</author>
+</item>
+<item>
+	<title>Christian Pontesegger: Extract eclipse svg images</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-6136395886583933220</guid>
+	<link>http://codeandme.blogspot.com/2017/05/extract-eclipse-svg-icons.html</link>
+	<description>When creating new icons for applications I like browsing &lt;a href=&quot;http://git.eclipse.org/c/platform/eclipse.platform.images.git/tree/org.eclipse.images/eclipse-svg&quot; target=&quot;_blank&quot;&gt;existing eclipse svg images&lt;/a&gt;. The repository structure is nice when you know what to look for. But with all its subfolders it is not suited for interactive browsing.&lt;br /&gt;&lt;br /&gt;While I am not worlds greatest bash script kiddie, I assembled a script that clones the repo and sorts its svg images. after execution you end up with a folder eclipse_images that hosts the svg files.&lt;br /&gt;&lt;br /&gt;If you improve the script, please post it here so others can benefit.&lt;br /&gt;&lt;br /&gt;&lt;pre class=&quot;brush: xml&quot;&gt;#!/bin/bash&lt;br /&gt;&lt;br /&gt;# create working dir&lt;br /&gt;mkdir eclipse_images&lt;br /&gt;cd eclipse_images/&lt;br /&gt;&lt;br /&gt;# get images&lt;br /&gt;git clone  git://git.eclipse.org/gitroot/platform/eclipse.platform.images.git&lt;br /&gt;&lt;br /&gt;# extract all svg images&lt;br /&gt;for line in `find eclipse.platform.images/ -iname &quot;*.svg&quot;`;&lt;br /&gt;do&lt;br /&gt;   echo line | awk -v source=&quot;$line&quot; '{str=source; gsub(/\//, &quot;_&quot;, str); gsub(/eclipse.platform.images_org.eclipse.images_eclipse-svg_/, &quot;&quot;, str); gsub(/icons_full_/, &quot;&quot;, str); gsub(/_icons_/, &quot;_&quot;, str); print &quot;mv \&quot;&quot; source &quot;\&quot; \&quot;&quot;  str &quot;\&quot;&quot;}' | bash -sx&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;# remove rest of repository&lt;br /&gt;rm -rf eclipse.platform.images&lt;br /&gt;&lt;br /&gt;# extract subtype 'wizard banner'&lt;br /&gt;mkdir &quot;wizban&quot;&lt;br /&gt;for line in `find . -maxdepth 1 -iname &quot;*_wizban_*.svg&quot;`;&lt;br /&gt;do&lt;br /&gt; mv &quot;$line&quot; &quot;wizban&quot;&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;# extract overlay images&lt;br /&gt;mkdir &quot;overlay&quot;&lt;br /&gt;for line in `find . -maxdepth 1 -regextype posix-extended -regex &quot;^.*_ovr(16_.*)?.*.svg&quot;`;&lt;br /&gt;do&lt;br /&gt; mv &quot;$line&quot; &quot;overlay&quot;&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;# extract progress indicators&lt;br /&gt;mkdir &quot;progress&quot;&lt;br /&gt;for line in `find . -maxdepth 1 -regextype posix-extended -regex &quot;^.*_(prgss|progress)_.*.svg&quot;`;&lt;br /&gt;do&lt;br /&gt; mv &quot;$line&quot; &quot;progress&quot;&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;# extract view images&lt;br /&gt;mkdir &quot;views&quot;&lt;br /&gt;for line in `find . -maxdepth 1 -regextype posix-extended -regex &quot;^.*_e?view(16)?_.*.svg&quot;`;&lt;br /&gt;do&lt;br /&gt; mv &quot;$line&quot; &quot;views&quot;&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;# ... and all the rest&lt;br /&gt;declare -a arr=(&quot;obj16&quot; &quot;elcl16&quot; &quot;clcl16&quot; &quot;etool16&quot; &quot;ctool16&quot; &quot;obj&quot;)&lt;br /&gt;mkdir &quot;images&quot;&lt;br /&gt;for token in &quot;${arr[@]}&quot;&lt;br /&gt;do&lt;br /&gt; for line in `find . -maxdepth 1 -iname &quot;*_${token}_*.svg&quot;`;&lt;br /&gt; do&lt;br /&gt;  mv &quot;$line&quot; &quot;images&quot;&lt;br /&gt; done&lt;br /&gt;done&lt;br /&gt;&lt;br /&gt;cd ..&lt;br /&gt;&lt;/pre&gt;</description>
+	<pubDate>Mon, 15 May 2017 17:44:22 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>itemis: Specification-By-Example for Model Transformations</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/specification-by-example-for-model-transformations</guid>
+	<link>https://blogs.itemis.com/en/specification-by-example-for-model-transformations</link>
+	<description>&lt;p&gt;At itemis one of our core development activities in a lot of our projects is the specification and implementation of model-to-model transformations. In a large project in the automotive domain we have been implementing a huge code base of transformations to and from a common domain model. &lt;/p&gt;  
+&lt;p&gt;Two key points from this and other projects are:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Providing a written prose specification for model transformations is often moot: The effort it takes to achieve in natural language the degree of detail and formality that is required for implementation is high. It is useful to use a formal specification for the transformation – which means that you almost have an implementation ready at this point.&lt;/li&gt; 
+ &lt;li&gt;Domain models and the transformations are very complex. In the end, for eliciting the requirements, detailing the specification and providing documentation, examples of the source and target models for a transformation are vital.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;Specification-by-example for an AUTOSAR model&lt;/h2&gt; 
+&lt;p&gt;So in this project we chose to enhance or even replace the specs with &quot;Specification-By-Example&quot;. For all transformation steps and relevant source model variations, we keep a combination of source model and expected target model. For convenience, these are implemented in the &lt;a href=&quot;https://hosting.itemis.de/en/how-to-use-a-textual-editor-for-the-autosar-adaptive-platform&quot;&gt;test model language that I blogged about recently&lt;/a&gt;. The transformations are then implemented in Xtend (Xtend fragments are also directly written in discussion meetings).&lt;/p&gt; 
+&lt;p&gt;Assume that we have an inplace-transformation for an AUTOSAR model (containing software components and ports), which should merge all the ports and interfaces of a component into one port and one merged interface. Our specification-by-example-files could look like this:&lt;/p&gt; 
+&lt;p&gt;Source Model:&lt;/p&gt; 
+&lt;div&gt;
+ &lt;img alt=&quot;specification-code-source-model.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/2017-04-17_17h50_48.png?t=1495175431930&amp;amp;width=724&amp;amp;name=2017-04-17_17h50_48.png&quot; style=&quot;width: 724px;&quot; title=&quot;specification-code-source-model.png&quot; width=&quot;724&quot; /&gt;
+&lt;/div&gt; 
+&lt;p&gt;&lt;br /&gt;Target Model:&lt;/p&gt; 
+&lt;div&gt;
+ &lt;img alt=&quot;specification-code-target-model.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/2017-04-17_17h52_20.png?t=1495175431930&amp;amp;width=724&amp;amp;name=2017-04-17_17h52_20.png&quot; style=&quot;width: 724px;&quot; title=&quot;specification-code-target-model.png&quot; width=&quot;724&quot; /&gt;
+&lt;/div&gt; 
+&lt;p&gt;&lt;br /&gt;Note that our specification-by-example is based on &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;Xtext&lt;/a&gt; models and can be used for any (EMF-based) meta-model. Xtext provides comfortable editing features that make it possible, to create such models during meetings. Since they are text files, they can be easily added to version control systems (such as git), and we can place them in the developer workspace for easy access.&lt;/p&gt; 
+&lt;p&gt;After having such an example-based specification, the next step would be obviously to use the same approach for testing. The source file is the input and the target file is the expected output. Our test framework reads in the source model, applies the transformations and then uses the EMF Compare framework from Eclipse to compare the actual result to the expected result. If there are differences, the test will fail.&lt;/p&gt; 
+&lt;p&gt;We have added a textual / HTML based formatting for the results of EMF Compare, so that we can easily see which elements have changed based on the output of the build system, such as Jenkins, without having to reproduce the transformation on the local machine first.&lt;/p&gt; 
+&lt;h2&gt;Improve your understanding of the transformation&lt;/h2&gt; 
+&lt;p&gt;The specification-by-example approach improves the teams understanding of the transformation and eases writing relevant tests. It also supports some of the approaches that some of my colleagues blogged about:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://hosting.itemis.de/de/testgetriebene-entwicklung-mehr-als-nur-qualit%C3%A4tssicherung&quot;&gt;Test Driven Development&lt;/a&gt;: As we directly use the specifications-by-example for test cases (and expand on them), we do have a set of test cases that is actually implemented before the first line of code is written and can directly be used to validate the code against. Usually, they will be supplemented by additional tests (e.g. unit tests).&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://hosting.itemis.de/de/testen-in-der-softwareentwicklung-klassisch-oder-agil&quot;&gt;Agile Tests&lt;/a&gt;: It is in our &quot;Definition of Done&quot; to provide test cases for each transformation implementation of a sprint. In the sprint review the &quot;before&quot; and &quot;after&quot; models can be reviewed to discuss what has actually been implemented. &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;You want to learn more about our projects in the automotive domain?&lt;/p&gt; 
+&lt;p&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://info.itemis.com/cs/ci/?pg=0882ae9d-87ed-4053-83de-4e9896c6a4b8&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;hseid=&amp;amp;hsic=&quot;&gt;&lt;img align=&quot;middle&quot; alt=&quot;Check our blog for more information&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/0882ae9d-87ed-4053-83de-4e9896c6a4b8.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fspecification-by-example-for-model-transformations&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 15 May 2017 14:02:00 +0000</pubDate>
+	<author>graf@itemis.de (Andreas Graf)</author>
+</item>
+<item>
+	<title>Maximilian and Jonas: Save the date: Eclipse DemoCamp Oxygen 28.06.2017</title>
+	<guid isPermaLink="false">http://eclipsesource.com/blogs/?p=28176</guid>
+	<link>http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please save the date for the &lt;/span&gt;&lt;b&gt;Eclipse DemoCamp Oxygen 2017 &lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;on June 28th. We will offer ~120 seats, but we usually receive around 200 registrations. To give everybody the same chance, registration for the event will open exactly on &lt;/span&gt;&lt;b&gt;May 24th 2017 2pm&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;More details on the event and the possibility to register you will find &lt;a href=&quot;https://www.eventbrite.de/e/eclipse-democamp-oxygen-2017-tickets-34566386994&quot;&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The DemoCamp Munich is one the biggest DemoCamps worldwide and therefore an excellent opportunity to showcase all the cool, new and interesting technology being built by the Eclipse community. This event is open to Eclipse enthusiasts who want to show demos of what they are doing with Eclipse. It aims to create an opportunity for you to meet other Eclipse enthusiasts in Munich in an informal setting.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Seating is limited, so please register on May 24th if you plan to attend. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We look forward to meeting you at the Eclipse DemoCamp Munich 2017!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=Save+the+date%3A+Eclipse+DemoCamp+Oxygen+28.06.2017&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/&amp;amp;t=Save+the+date%3A+Eclipse+DemoCamp+Oxygen+28.06.2017&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/05/15/save-the-date-eclipse-democamp-oxygen-28-06-2017/#respond&quot;&gt;Leave a Comment&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/democamp/&quot; title=&quot;democamp Tag&quot;&gt;democamp&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/democamp/&quot; title=&quot;democamp Tag&quot;&gt;democamp&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 15 May 2017 12:50:58 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Devoxx4Kids Ottawa June 2017</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=4817</guid>
+	<link>https://waynebeaton.wordpress.com/2017/05/14/devoxx4kids-ottawa-june-2017/</link>
+	<description>&lt;p&gt;We all had such a great time at the &lt;a href=&quot;http://www.devoxx4kids.org/&quot;&gt;Devoxx4Kids&lt;/a&gt; session in San Jose this past March that we’ve decided to try running a session here in Ottawa.&lt;/p&gt;
+&lt;p&gt;The goals and mission of Devoxx4Kids is to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Teach children Computer Programming while having fun and introduce them to concepts of robotics, electronics and generally being creative with these kind of devices.&lt;/li&gt;
+&lt;li&gt;Inspire not only children but also the classical education system, so they too can start including computer science in their curriculum.&lt;/li&gt;
+&lt;li&gt;Demystify programming for girls and introduce them to computer science in order to improve gender equality in that field.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The full &lt;a href=&quot;http://www.devoxx4kids.org/manifesto/&quot;&gt;manifesto&lt;/a&gt; is on the Devoxx4Kids website. There’s also all sorts of information about the programme, including links to the workshops.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;20170319_130428&quot; class=&quot;alignnone size-full wp-image-4855&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/05/20170319_130428.jpg?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;Don’t let this picture fool you. Plenty of young women attended the session in San Jose, but we were so caught up in the fun that we didn’t take all that many pictures…&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For this first attempt, we’re going to keep it simple and run only two workshops (they ran eight in four parallel streams in San Jose). Since we’re new at this, we’re going to stick to coding workshops with a plan to branch out and maybe try some of the hardware workshops in a future session (these workshops require that we acquire some supplies and equipment that we don’t have readily at hand).&lt;/p&gt;
+&lt;p&gt;For this first run, the good people at Carleton University have offered up some space. Registration will open at &lt;strong&gt;9:00 am on Saturday, June 3, 2017&lt;/strong&gt;; we’ll be in room 5345 of the Herzberg Physics building.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;5345 Herzberg Physics&lt;br /&gt;
+Carleton University&lt;br /&gt;
+1125 Colonel By Dr&lt;br /&gt;
+Ottawa, ON K1S 5B6&lt;/p&gt;
+&lt;p&gt;The target age range for attendees is between ten and fourteen years of age (close counts). We’ll post more information, including how to register, on our &lt;a href=&quot;https://www.meetup.com/Devoxx4Kids-Ottawa/&quot;&gt;event page&lt;/a&gt;. Registration includes lunch. We’re charging a modest fee of $30 to cover our expenses. Attendees will need to bring their own laptop computer to complete the exercises (we may be able to bring a few spares).&lt;/p&gt;
+&lt;p&gt;If you’re interested in helping to mentor the session, please send us a note at emo@eclipse.org. We’ll get the mentors together in late May to go through the exercises and make sure that everybody is ready to hit the ground running.&lt;/p&gt;
+&lt;p&gt;The first workshop will focus on a simple game written in &lt;em&gt;Javascript and HTML&lt;/em&gt; using a game engine called &lt;em&gt;Phaser&lt;/em&gt;. Participants are shown some basic JavaScript expressions and are then invited to use their new knowledge to modify the game. The beautiful thing about this exercise is that it requires virtually no set-up: the code is all self-contained, any text editor (including Notepad) can be used for modifications, and it all runs in a browser. Further, it can be run successfully without requiring an Internet connection.&lt;/p&gt;
+&lt;p&gt;The second workshop is concerned with &lt;em&gt;Minecraft Modding&lt;/em&gt; using &lt;em&gt;Forge for Minecraft&lt;/em&gt; and Eclipse IDE as the development environment. This workshop has a few more moving parts than the first and so will require a bit more effort to set up and most certainly does require a stable Internet connection to at least assemble the initial development environment via a Gradle build. There’s certainly a lot of opportunities in this workshop to explain all sorts of interesting concepts without getting bogged down in too many details (which will be good if we end up having attendees with prior experience).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot from 2017-05-12 15-36-17&quot; class=&quot;alignnone size-full wp-image-4840&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/05/screenshot-from-2017-05-12-15-36-17.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We’ll send out setup instructions a week or so ahead of the session; we can hit the ground running faster if everybody has the software that we’re going to need already downloaded.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot; aligncenter&quot; src=&quot;https://i0.wp.com/www.devoxx4kids.org/wp-content/uploads/2013/10/DevoxxWithoutBrackets_PNG_600px.png&quot; /&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/4817/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/4817/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=4817&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 15 May 2017 02:56:45 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio Maintenance Release for Eclipse Neon.3</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/10.4.0.ga-for-neon.3.html</guid>
+	<link>https://tools.jboss.org/blog/10.4.0.ga-for-neon.3.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.Final.html&quot;&gt;JBoss Tools 4.4.4&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/neon/10.4.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 10.4&lt;/a&gt; for Eclipse Neon.3 are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio10&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio10.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.6.3 (Neon.3) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3&quot;&gt;Eclipse 4.6.3 Neon JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/neon/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Our main focus for this release was improvements for container based development and bug fixing.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;improved-openshift-3-and-docker-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-openshift-3-and-docker-tools&quot;&gt;&lt;/a&gt;Improved OpenShift 3 and Docker Tools&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We continue to work on providing better experience for container based development in JBoss Tools and Developer Studio. Let’s go through a few interesting updates here.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;openshift-server-adapter-enhanced-flexibility&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-server-adapter-enhanced-flexibility&quot;&gt;&lt;/a&gt;OpenShift Server Adapter enhanced flexibility&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;OpenShift server adapter is a great tool that allows developers to synchronize local changes in the Eclipse workspace with running pods in the
+      OpenShift cluster. It also allows you to remote debug those pods when the server adapter is launched in Debug mode.
+      The supported stacks are Java and NodeJS.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As pods are ephemeral OpenShift resources, the server adapter definition was based on an OpenShift service resource and the pods are then
+      dynamically computed from the service selector.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This has a major drawback as it allows to use this feature only for pods that are part of a service, which may be logical for Web based applications
+      as a route (and thus a service) is required in order to access the application.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So, it is now possible to create a server adapter from the following OpenShift resources:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;service (as before)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;deployment config&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;replication controller&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;pod&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If a server adapter is created from a pod, it will be created from the associated OpenShift resource, in the preferred order:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;service&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;deployment config&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;replication controller&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As the OpenShift explorer used to display OpenShift resources that were linked to a service, it has been enhanced as well.
+      It now displays resources linked to a deployment config or replication controller.
+      Here is an example of a deployment with no service ie a deployment config:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;server adapter enhanced&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So, as an OpenShift server adapter can be created from different kind of resources, the kind of associated resource is displayed when
+      creating the OpenShift server adapter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;server adapter enhanced1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once created, the kind of OpenShift resource adapter is also displayed in the Servers view:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;server adapter enhanced2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This information is also available from the server editor:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;server adapter enhanced3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/server-adapter-enhanced3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;security-vulnerability-fixed-in-certificate-validation-database&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#security-vulnerability-fixed-in-certificate-validation-database&quot;&gt;&lt;/a&gt;Security vulnerability fixed in certificate validation database&lt;/h4&gt;
+      &lt;div class=&quot;admonitionblock important&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-important&quot; title=&quot;Important&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you use the OpenShift tooling to connect to an OpenShift API server, the certificate of the OpenShift API server
+      is first validated. If the issuer authority is a known one, then the connection is then established. If the issuer is an
+      unknown one, a validation dialog is first shown to the user with the details of the OpenShift API server certificate as well
+      as the details of the issuer authority. If the user accepts it, then the connection is established. There is also an option to
+      store the certificate in a database so that next time a connection is attempted to the same OpenShift API server, then the certificate
+      will be considered valid an no validation dialog will be show again.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;certificate validation dialog&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/certificate-validation-dialog.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We found a security vulnerabilty as the certificate was wrongly stored: it was partially stored (not all attributes were stored) so we may
+      interpret a different certificate as validated where it should not.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We had to change the format of the certificate database. As the certificates stored in the previous database were not entirelly stored, there was
+      no way to provide a migration path. As a result, after the upgrade, the certificate database will be empty. So if you had previously accepted some
+      certificates, then you need to accept them again and fill the certificate database again.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;cdk-3-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-3-server-adapter&quot;&gt;&lt;/a&gt;CDK 3 Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The CDK 3 server adapter has been here for quite a long time. It used to be Tech Preview as CDK 3 was not officially released. It is now officiallly available.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled &lt;strong&gt;Red Hat Container Development Kit 3&lt;/strong&gt;).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3 server adapter5&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter5.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All you have to do is set the credentials for your Red Hat account and the location of the CDK’s minishift binary file and the type of virtualization hypervisor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3 server adapter1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you’re finished, a new CDK Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3 server adapter2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3 server adapter3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3 server adapter4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3-server-adapter4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;openshift-container-platform-3-5-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-container-platform-3-5-support&quot;&gt;&lt;/a&gt;OpenShift Container Platform 3.5 support&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;OpenShift Container Platform (OCP) 3.5 has been
+      &lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-brings-kubernetes-new-application-workloads-latest-version-red-hat-openshift-container-platform&quot; target=&quot;_blank&quot;&gt;announced&lt;/a&gt; by Red Hat.
+      JBossTools 4.4.4.Final has been validated against OCP 3.5.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;openshift-server-adapter-extensibility&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-server-adapter-extensibility&quot;&gt;&lt;/a&gt;OpenShift server adapter extensibility&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The OpenShift server adapter had long support for EAP/Wildfly and NodeJS based deployments. It turns out that it does a great deal of synchronizing
+      local workspace changes to remote deployments on OpenShift which have been standardized through images metadata (labels). But each runtime has its
+      own specific. As an example, Wildfly/EAP deployments requires that a re-deploy trigger is sent after the files have been synchronized.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In order to reduce the technical debt and allow support for other runtimes (lots of them in the microservice world), we have refactored the OpenShift
+      server adapter so that each runtime specific is now isolated and that it will be easy and safe to add support for new runtime.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For a full in-depth description, see the following &lt;a href=&quot;https://github.com/jbosstools/jbosstools-openshift/wiki/Openshift-server-adapter-profile-and-its-subsystems&quot;&gt;wiki page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;pipeline-builds-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#pipeline-builds-support&quot;&gt;&lt;/a&gt;Pipeline builds support&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Pipeline based builds are now supported by the OpenShift tooling.
+      When creating an application, if using a template, if one of the builds is based on pipeline, you can view the detail
+      of the pipeline:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;pipeline wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-wizard.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When your application is deployed, you can see the details of the build configuration for the pipeline based builds:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;pipeline details&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-details.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;More to come as we are improving the pipeline support in the OpenShift tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;update-of-docker-client&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#update-of-docker-client&quot;&gt;&lt;/a&gt;Update of Docker Client&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The level of the underlying com.spotify.docker.client plug-in used to access the Docker daemon has been upgraded to 3.6.8.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;run-image-network-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#run-image-network-support&quot;&gt;&lt;/a&gt;Run Image Network Support&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new page has been added to the Docker Run Image Wizard and Docker Run Image Launch configuration that allows
+      the end-user to specify the network mode to use.  A user can choose from Default, Bridge, Host, None, Container,
+      or Other.  If Container is selected, the user must choose from an active Container to use the same network mode.
+      If Other is specified, a named network can be specified.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Network Mode&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerNetworkMode.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Network Mode Configuration&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRunConfigNetworkMode.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;refresh-connection&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#refresh-connection&quot;&gt;&lt;/a&gt;Refresh Connection&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Users can now refresh the entire connection from the Docker Explorer View.  Refresh can be performed two ways:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;olist arabic&quot;&gt;
+      &lt;ol class=&quot;arabic&quot;&gt;
+      &lt;li&gt;
+      &lt;p&gt;using the right-click context menu from the Connection&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;using the Refresh menu button when the Connection is selected&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Refresh Connection&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRefreshConnection.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;server-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-tools&quot;&gt;&lt;/a&gt;Server Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;api-change-in-jmx-ui-s-new-connection-wizard&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#api-change-in-jmx-ui-s-new-connection-wizard&quot;&gt;&lt;/a&gt;API Change in JMX UI’s New Connection Wizard&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;While hardly something most users will care about, extenders may need to be aware that the API for adding connection types to the &amp;amp;aposNew JMX Connection&amp;amp;apos wizard in the &amp;amp;aposJMX Navigator&amp;amp;apos has changed.  Specifically, the &amp;amp;aposorg.jboss.tools.jmx.ui.providerUI&amp;amp;apos extension point has been changed. While previously having a child element called &amp;amp;aposwizardPage&amp;amp;apos, it now requires a &amp;amp;aposwizardFragment&amp;amp;apos.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A &amp;amp;aposwizardFragment&amp;amp;apos is part of the &amp;amp;aposTaskWizard&amp;amp;apos framework first used in WTP’s ServerTools, which has, for a many years, been used throughout JBossTools. This framework allows wizard workflows where the set of pages to be displayed can change based on what selections are made on previous pages.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This change was made as a direct result of a bug caused by the addition of the Jolokia connection type in which some standard workflows could no longer be completed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This change only affects adopters and extenders, and should have no noticable change for the user, other than that the below bug has been fixed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;hibernate-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-tools&quot;&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;hibernate-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;hibernate-runtime-provider-updates-2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates-2&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.5.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.4.Final and Hibernate Tools version 5.1.3.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.8.Final and Hibernate Tools version 5.2.2.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;forge-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-tools&quot;&gt;&lt;/a&gt;Forge Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;forge-runtime-updated-to-3-6-1-final&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-runtime-updated-to-3-6-1-final&quot;&gt;&lt;/a&gt;Forge Runtime updated to 3.6.1.Final&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The included Forge runtime is now 3.6.1.Final. Read the official announcement &lt;a href=&quot;http://forge.jboss.org/news/jboss-forge-3.6.1.final-is-here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;startup&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/forge/images/4.4.4.AM3/startup.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.4.4 and Developer Studio 10.4 out we are already working on the next release for Eclipse Oxygen.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 12 May 2017 14:16:37 +0000</pubDate>
+</item>
+<item>
+	<title>typefox.io: Xtext LSP vs. Xtext Web</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14192</guid>
+	<link>http://typefox.io/xtext-lsp-vs-xtext-web</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The &lt;a href=&quot;http://xtext.org&quot;&gt;Eclipse Xtext&lt;/a&gt; language development framework can be used to implement domain-specific languages (DSLs) as well as fully blown programming languages. In addition to a modern compiler architecture, it comes with tool support for different platforms, like Eclipse, IntelliJ and Web. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Since supporting all these different editor platforms is a lot of effort, we are strong supporters of the &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;Language Server Protocol (LSP)&lt;/a&gt;. The LSP defines a set of requests and notifications for editors to interact with language servers. A language server essentially is a smart compiler watching a workspace and exposing services for an editor. Such services cover things like content assist, find references, rename refactoring and so on. So the big question is :&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;When should I use Xtext LSP instead of a native editor integration?&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As of today if you are looking for an Eclipse Plug-in my answer is clearly, go with the traditional Xtext Eclipse Plug-in. With Eclipse LSP4E there is Eclipse support for language servers, but it is not even close to what our native Eclipse support does. I also doubt that this will change any time in the future. &lt;strong&gt;The native Eclipse integration of Xtext is here to stay.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For IntelliJ IDEA the situation is different. Neither the Xtext integration has been updated with the last release, nor has Jetbrains yet started to work on LSP support. The code for the IDEA integration is quite extensive and deep. So deep that we get regularly broken because we use non-public API. Since the demand for IDEA integration is not high, maintaining it doesn’t make sense to us. That is why I asked Jetbrains to work on LSP integration last year already. So far they don’t seem to be convinced, but you could add your 2cents or +1 to &lt;a href=&quot;https://youtrack.jetbrains.com/issue/IDEABKL-7409&quot;&gt;this ticket&lt;/a&gt; if you think LSP would be a good IDEA. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For the rest of this post, I want to talk about Xtext Web and why you should not use it anymore and prefer the LSP integration instead.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Xtext Web support was our first attempt to generalize language features over multiple editors. At that time we only abstracted over the web editors Ace, CodeMirror and Eclipse Orion (the editor widget, not the IDE). We did it over a REST interface and focussed on single code editors, only. &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The LSP integration works with any editor supporting it and while Eclipse Orion is still working on supporting it, the Monaco code editor from Microsoft &lt;a href=&quot;http://typefox.io/teaching-the-language-server-protocol-to-microsofts-monaco-editor&quot;&gt;fully supports it already&lt;/a&gt;. So here are my four reasons why you should use LSP for web applications:&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Monaco Is Awesome&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Our team has been working with Monaco since it came out last summer. For instance, we are developing a data science IDE for &lt;a href=&quot;http://r-brain.io&quot;&gt;r-brain.io&lt;/a&gt; (you can try it for free :-)), where we use Monaco with language servers (currently Python and R). The R language server has been implemented in Xtext using the brand new LSP support. Please have a look at this &lt;a href=&quot;https://r-brain.io/en/blog/ride-a-new-data-science-ide-for-python-and-r/&quot;&gt;article&lt;/a&gt; to learn more about its features.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So far working with Monaco has been a decent experience. The code is well written and organized, and the quality is very high. Microsoft uses &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt;, which we do, too, when working on a JavaScript stack. It is to JavaScript what our &lt;a href=&quot;https://www.eclipse.org/xtend/&quot;&gt;Xtend programming language&lt;/a&gt; is to Java :).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Feature-wise I can say that it has all the things other editors have, but also comes with additional nice features like &lt;a href=&quot;https://code.visualstudio.com/blogs/2017/02/12/code-lens-roundup&quot;&gt;code-lenses&lt;/a&gt;, &lt;a href=&quot;https://code.visualstudio.com/docs/editor/editingevolved&quot;&gt;peak definition or the integrated find references&lt;/a&gt;. Moreover, it is very extensible letting use inline any kind of html for instance.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Multiple Editor Support&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Monaco directly supports to work with multiple editors in a single website and connect them for e.g. navigation. This is also a big difference between Xtext LSP and Xtext Web. Xtext LSP is built on top of our incremental builder infrastructure, so it can naturally deal with multiple documents and even projects and dependencies. This doesn’t mean that you need to serve your files from a file system or need to deal with complicated project setups. It just supports this once you want to do it.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Xtext Web, on the other hand, can only handle a single document, and the underlying resource set needs to be provided programmatically.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Write Once, Run Everywhere&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Having a fully compliant language server for your Xtext DSL will allow to use it in other contexts, too. Single-sourcing your language implementation and being able to run it in all different LSP-supporting editors is a huge plus. You decouple the work that you put into your language from the decisions you make regarding in which editors or applications you integrate it.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Future Proof&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;When it comes to integrating Xtext languages in web applications all our passion and love goes to the LSP. Our customers use either Eclipse or LSP, and we are happy helping people to migrate their existing Xtext Web solutions to LSP and Monaco. Going forward we won’t invest into the Xtext Web support but likely will deprecate it soon. In the future, given the adoption of the LSP, there will be even more tools and editors that can run your Xtext languages.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Final Words&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So for me, the main focus in Xtext will be the traditional Eclipse support and the LSP support for everything else. The Eclipse support will benefit from the LSP support as well since we plan to implement new tool features in a way such that it can be used from Eclipse as well as from LSP. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please &lt;a href=&quot;http://typefox.io/contact&quot;&gt;get in touch&lt;/a&gt; if you have questions or any doubts whether your use case is well covered by this focus.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 12 May 2017 10:03:59 +0000</pubDate>
+</item>
+<item>
+	<title>VIATRA: Dimitris Kolovos at IncQuery Labs Academy</title>
+	<guid isPermaLink="false">5614faafe4b03f677dc3822b:56153118e4b022593e35e24b:591486a020099e7b819b4fcb</guid>
+	<link>https://viatra.net/news/2017/5/dimitris-kolovos-at-incquery-labs-academy</link>
+	<description>&lt;p&gt;IncQuery Labs Academy – an IT engineering professional educational platform – founded by IncQuery Labs Ltd. in April 2016. It aims to present our specializations most interesting and challenging projects, results and experiences. The presentations go around diverse topics in software development, validation and verification, model driven engineering, open-source technologies, etc.&lt;/p&gt;&lt;p&gt;IncQuery Labs Academy continues with a special speaker: Dimitris Kolovos, Senior Lecturer (Associate Professor) at the Department of Computer Science of the University of York, where he researches and teaches automated and model-driven software engineering. He is also an active Eclipse Foundation committer, leading the development of the open-source Epsilon platform under the Eclipse Modelling project.&lt;/p&gt;&lt;p&gt;His talks title: Model-Based Engineering in Industry: An Academic Toolsmith's Perspective&lt;/p&gt;&lt;p&gt;Abstract:&lt;/p&gt;&lt;p&gt;In this talk he will reflect on lessons learnt through developing and evangelising Eclipse-based open-source technologies for Model-Based Engineering for more than a decade now. He will focus on different states of maturity and practice he has encountered in industry, on the external perception of Eclipse-based MBE technologies, and on opportunities and challenges involved in bridging heterogeneous open-source and proprietary MBE tools.&lt;/p&gt;&lt;p&gt;Join us online on the following link and leave your questions, comments in IncQuery Labs’ &lt;a href=&quot;https://www.facebook.com/incquerylabs/?fref=ts&quot; target=&quot;_blank&quot;&gt;Facebook page&lt;/a&gt;!&lt;/p&gt;</description>
+	<pubDate>Thu, 11 May 2017 15:50:26 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: Time scheduling with Chime</title>
+	<guid isPermaLink="true">http://vertx.io/blog/time-scheduling-with-chime</guid>
+	<link>http://vertx.io/blog/time-scheduling-with-chime</link>
+	<description>&lt;article&gt;&lt;h2 id=&quot;time-scheduling-&quot;&gt;Time scheduling.&lt;/h2&gt;
+&lt;p&gt;Eclipse Vert.x executes periodic and delayed actions with
+&lt;a href=&quot;http://vertx.io/docs/vertx-core/java/#_executing_periodic_and_delayed_actions&quot;&gt;periodic and one-shot timers&lt;/a&gt;.
+This is the base for time scheduling and reach feature extension must be rather interesting.
+Be notified at certain date / time, take into account holidays,
+repeat notifications until a given date, apply time zone,
+take into account daylight saving time etc.
+There are a lot of useful features time scheduler may introduce to the Vert.x stack.  &lt;/p&gt;
+&lt;h2 id=&quot;chime-&quot;&gt;Chime.&lt;/h2&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/LisiLisenok/Chime&quot;&gt;Chime&lt;/a&gt; is time scheduler verticle which works on &lt;em&gt;Vert.x&lt;/em&gt; event bus and provides:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scheduling with &lt;em&gt;cron-style&lt;/em&gt;, &lt;em&gt;interval&lt;/em&gt; or &lt;em&gt;union&lt;/em&gt; timers:&lt;ul&gt;
+&lt;li&gt;at a certain time of day (to the second);  &lt;/li&gt;
+&lt;li&gt;on certain days of the week, month or year;  &lt;/li&gt;
+&lt;li&gt;with a given time interval;  &lt;/li&gt;
+&lt;li&gt;with nearly any combination of all of above;  &lt;/li&gt;
+&lt;li&gt;repeating a given number of times;  &lt;/li&gt;
+&lt;li&gt;repeating until a given time / date;  &lt;/li&gt;
+&lt;li&gt;repeating infinitely  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;proxying event bus with conventional interfaces  &lt;/li&gt;
+&lt;li&gt;applying time zones available on &lt;em&gt;JVM&lt;/em&gt; with daylight saving time taken into account  &lt;/li&gt;
+&lt;li&gt;flexible timers management system:  &lt;ul&gt;
+&lt;li&gt;grouping timers;  &lt;/li&gt;
+&lt;li&gt;defining a timer start or end times  &lt;/li&gt;
+&lt;li&gt;pausing / resuming;  &lt;/li&gt;
+&lt;li&gt;fire counting;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;listening and sending messages via event bus with &lt;em&gt;JSON&lt;/em&gt;;  &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;publishing&lt;/em&gt; or &lt;em&gt;sending&lt;/em&gt; timer fire event to the address of your choice.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block info&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-info-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt;&lt;em&gt;Chime&lt;/em&gt; is written in &lt;a href=&quot;https://ceylon-lang.org&quot;&gt;Ceylon&lt;/a&gt; and is available at
+&lt;a href=&quot;https://herd.ceylon-lang.org/modules/herd.schedule.chime&quot;&gt;Ceylon Herd&lt;/a&gt;.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;  &lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;running-&quot;&gt;Running.&lt;/h2&gt;
+&lt;h3 id=&quot;ceylon-users-&quot;&gt;Ceylon users.&lt;/h3&gt;
+&lt;p&gt;Deploy &lt;em&gt;Chime&lt;/em&gt; using &lt;code&gt;Verticle.deployVerticle&lt;/code&gt; method.  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;hljs-tag&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;hljs-tag&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.vertx&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.ceylon&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.core&lt;/span&gt; {&lt;span class=&quot;hljs-attribute&quot;&gt;vertx&lt;/span&gt;}
+&lt;span class=&quot;hljs-tag&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;hljs-tag&quot;&gt;herd&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.schedule&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.chime&lt;/span&gt; {&lt;span class=&quot;hljs-attribute&quot;&gt;Chime&lt;/span&gt;}
+&lt;span class=&quot;hljs-attribute&quot;&gt;Chime&lt;/span&gt;().&lt;span class=&quot;hljs-function&quot;&gt;deploy&lt;/span&gt;(vertx.&lt;span class=&quot;hljs-function&quot;&gt;vertx&lt;/span&gt;());&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or with &lt;code&gt;vertx.deployVerticle(\&quot;ceylon:herd.schedule.chime/0.2.1\&quot;);&lt;/code&gt;
+but ensure that Ceylon verticle factory is available at class path.   &lt;/p&gt;
+&lt;h3 id=&quot;java-users-&quot;&gt;Java users.&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Ensure that Ceylon verticle factory is available at class path.  &lt;/li&gt;
+&lt;li&gt;Put Ceylon versions to consistency. For instance, Vert.x 3.4.1 depends on Ceylon 1.3.0
+while Chime 0.2.1 depends on Ceylon 1.3.2. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vertx.io/docs/vertx-core/java/#_deploying_verticles_programmatically&quot;&gt;Deploy verticle&lt;/a&gt;, like:  &lt;pre&gt;&lt;code&gt;vertx.&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;deployVerticle&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;ceylon:herd.schedule.chime/0.2.1&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block info&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-info-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt;example with Maven is available at &lt;a href=&quot;https://github.com/LisiLisenok/ChimeJavaExample&quot;&gt;Github&lt;/a&gt;.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;  &lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;schedulers-&quot;&gt;Schedulers.&lt;/h2&gt;
+&lt;p&gt;Well, &lt;em&gt;Chime&lt;/em&gt; verticle is deployed. Let’s see its structure.&lt;br /&gt;In order to provide flexible and broad ways to manage timing two level architecture is adopted.
+It consists of schedulers and timers. Timer is a unit which fires at a given time.
+While scheduler is a set or group of timers and provides following:    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;creating and deleting timers;  &lt;/li&gt;
+&lt;li&gt;pausing / resuming all timers working within the scheduler;  &lt;/li&gt;
+&lt;li&gt;info on the running timers;  &lt;/li&gt;
+&lt;li&gt;default time zone;  &lt;/li&gt;
+&lt;li&gt;listening event bus at the given scheduler address for the requests to.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any timer operates within some scheduler. And one or several schedulers have to be created before starting scheduling.&lt;br /&gt;When &lt;em&gt;Chime&lt;/em&gt; verticle is deployed it starts listen event bus at &lt;strong&gt;chime&lt;/strong&gt; address (can be configured).
+In order to create scheduler send to this address a JSON message.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{
+    &quot;&lt;span class=&quot;hljs-attribute&quot;&gt;operation&lt;/span&gt;&quot;: &lt;span class=&quot;hljs-value&quot;&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;create&quot;&lt;/span&gt;&lt;/span&gt;,
+    &quot;&lt;span class=&quot;hljs-attribute&quot;&gt;name&lt;/span&gt;&quot;: &lt;span class=&quot;hljs-value&quot;&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;scheduler name&quot;&lt;/span&gt;
+&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Once scheduler is created it starts listen event bus at &lt;strong&gt;scheduler name&lt;/strong&gt; address.
+Sending messages to &lt;strong&gt;chime&lt;/strong&gt; address or to &lt;strong&gt;scheduler name&lt;/strong&gt; address are rather equivalent,
+excepting that chime address provides services for every scheduler, while scheduler address
+provides services for this particular scheduler only.&lt;br /&gt;The request sent to the &lt;em&gt;Chime&lt;/em&gt; has to contain &lt;strong&gt;operation&lt;/strong&gt; and &lt;strong&gt;name&lt;/strong&gt; keys.
+Name key provides scheduler or timer name. While operation key shows an action &lt;em&gt;Chime&lt;/em&gt; has to perform.
+There are only four possible operations:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;create - create new scheduler or timer;  &lt;/li&gt;
+&lt;li&gt;delete - delete scheduler or timer;  &lt;/li&gt;
+&lt;li&gt;info - request info on &lt;em&gt;Chime&lt;/em&gt; or on a particular scheduler or timer;  &lt;/li&gt;
+&lt;li&gt;state - set or get scheduler or timer state (running, paused or completed).  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;timers-&quot;&gt;Timers.&lt;/h2&gt;
+&lt;p&gt;Now we have scheduler created and timers can be run within. There are two ways to access a given timer:  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sending message to &lt;strong&gt;chime&lt;/strong&gt; address with ‘name’ field set to &lt;strong&gt;scheduler name:timer name&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;Sending message to &lt;strong&gt;scheduler name&lt;/strong&gt; address with ‘name’ field set to either &lt;strong&gt;timer name&lt;/strong&gt; or &lt;strong&gt;scheduler name:timer name&lt;/strong&gt;.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://modules.ceylon-lang.org/repo/1/herd/schedule/chime/0.2.1/module-doc/api/index.html#timer-request&quot;&gt;Timer request&lt;/a&gt; is rather complicated and contains a lot of details. In this blog post only basic features are considered:  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{
+    &quot;operation&quot;: &quot;create&quot;,
+    &quot;name&quot;: &quot;scheduler name:timer name&quot;,
+    &quot;description&quot;: {}
+};&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is rather similar to request sent to create a scheduler.
+The difference is only &lt;strong&gt;description&lt;/strong&gt; field is added.
+This description is an JSON object which identifies particular timer type and its details.&lt;br /&gt;The other fields not shown here are optional and includes:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;initial timer state (paused or running);  &lt;/li&gt;
+&lt;li&gt;start or end date-time;  &lt;/li&gt;
+&lt;li&gt;number of repeating times;  &lt;/li&gt;
+&lt;li&gt;is timer message to be published or sent;  &lt;/li&gt;
+&lt;li&gt;timer fire message and delivery options;  &lt;/li&gt;
+&lt;li&gt;time zone.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;timer-descriptions-&quot;&gt;Timer descriptions.&lt;/h2&gt;
+&lt;p&gt;Currently, three types of timers are supported:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interval timer&lt;/strong&gt; which fires after each given time period (minimum 1 second):  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{
+  &quot;type&quot;: &quot;interval&quot;,
+  &quot;delay&quot;: &quot;timer delay in seconds, Integer&quot;
+};&lt;/code&gt;&lt;/pre&gt;  
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Cron style timer&lt;/strong&gt; which is defined with cron-style:&lt;br /&gt;&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{&lt;br /&gt;  “type”: “cron”,&lt;br /&gt;  “seconds”: “seconds in cron style, String”,&lt;br /&gt;  “minutes”: “minutes in cron style, String”,&lt;br /&gt;  “hours”: “hours in cron style, String”,&lt;br /&gt;  “days of month”: “days of month in cron style, String”,&lt;br /&gt;  “months”: “months in cron style, String”,&lt;br /&gt;  “days of week”: “days of week in cron style, String, optional”,&lt;br /&gt;  “years”: “years in cron style, String, optional”&lt;br /&gt;};&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;Cron timer is rather powerful and flexible. Investigate &lt;a href=&quot;https://modules.ceylon-lang.org/repo/1/herd/schedule/chime/0.2.1/module-doc/api/index.html#cron-expression&quot;&gt;specification&lt;/a&gt; for the complete list of features.  &lt;p&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Union timer&lt;/strong&gt; which combines a number of timers into a one:&lt;br /&gt;&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{&lt;br /&gt;  “type”: “union”,&lt;br /&gt;  “timers”: [“list of the timer descriptions”]&lt;br /&gt;};&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;Union timer may be useful to fire at a list of specific dates / times.&lt;p&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;timer-events-&quot;&gt;Timer events.&lt;/h2&gt;
+&lt;p&gt;Once timer is started it sends or publishes messages to &lt;strong&gt;scheduler name:timer name&lt;/strong&gt; address in JSON format.
+Two types of events are sent:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fire event which occurs when time reaches next timer value:  &lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{  
+  &quot;name&quot;: &quot;scheduler name:timer name, String&quot;,  
+  &quot;event&quot;: &quot;fire&quot;,  
+  &quot;count&quot;: &quot;total number of fire times, Integer&quot;,  
+  &quot;time&quot;: &quot;ISO formated time / date, String&quot;,  
+  &quot;seconds&quot;: &quot;number of seconds since last minute, Integer&quot;,  
+  &quot;minutes&quot;: &quot;number of minutes since last hour, Integer&quot;,  
+  &quot;hours&quot;: &quot;hour of day, Integer&quot;,  
+  &quot;day of month&quot;: &quot;day of month, Integer&quot;,  
+  &quot;month&quot;: &quot;month, Integer&quot;,  
+  &quot;year&quot;: &quot;year, Integer&quot;,  
+  &quot;time zone&quot;: &quot;time zone the timer works in, String&quot;
+};&lt;/code&gt;&lt;/pre&gt;  &lt;/li&gt;
+&lt;li&gt;complete event which occurs when timer is exhausted by some criteria given at timer create request:  &lt;pre&gt;&lt;code class=&quot;hljs json&quot;&gt;{  
+  &quot;name&quot;: &quot;scheduler name:timer name, String&quot;,  
+  &quot;event&quot;: &quot;complete&quot;,  
+  &quot;count&quot;: &quot;total number of fire times, Integer&quot;  
+};&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Basically, now we know everything to be happy with &lt;em&gt;Chime&lt;/em&gt;: schedulers and requests to them, timers and timer events.
+Will see some examples in the next section.  &lt;/p&gt;
+&lt;h2 id=&quot;examples-&quot;&gt;Examples.&lt;/h2&gt;
+&lt;h3 id=&quot;ceylon-example-&quot;&gt;Ceylon example.&lt;/h3&gt;
+&lt;p&gt;Let’s consider a timer which has to fire every month at 16-30 last Sunday.  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// listen the timer events&lt;/span&gt;
+eventBus.consumer (
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;my scheduler:my timer&quot;&lt;/span&gt;,
+    (Throwable|Message msg) {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (is Message msg) { print(msg.body()); }
+        &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; { print(msg); }    
+    }
+);
+&lt;span class=&quot;hljs-comment&quot;&gt;// create scheduler and timer&lt;/span&gt;
+eventBus.send (
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;chime&quot;&lt;/span&gt;,
+    JsonObject {
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;operation&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;create&quot;&lt;/span&gt;,
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;name&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;my scheduler:my timer&quot;&lt;/span&gt;,
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;description&quot;&lt;/span&gt; -&amp;gt; JsonObject {
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;type&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;cron&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;seconds&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;0&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;minutes&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;30&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;hours&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;16&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;days of month&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;months&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;,
+            &lt;span class=&quot;hljs-string&quot;&gt;&quot;days of week&quot;&lt;/span&gt; -&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SundayL&quot;&lt;/span&gt;
+        }
+    }
+);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block info&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-info-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt;‘*’ means any, ‘SundayL’ means last Sunday.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block note&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt;If ‘create’ request is sent to Chime address with name set to ‘scheduler name:timer name’ and corresponding scheduler hasn’t been created before then Chime creates both new scheduler and new timer.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;  &lt;p&gt;&lt;/p&gt;
+&lt;h3 id=&quot;java-example-&quot;&gt;Java example.&lt;/h3&gt;
+&lt;p&gt;Let’s consider a timer which has to fire every Monday at 8-30 and every Friday at 17-30.  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// listen the timer events&lt;/span&gt;
+MessageConsumer consumer = eventBus.consumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my scheduler:my timer&quot;&lt;/span&gt;);
+consumer.handler (
+    message -&amp;gt; {
+        System.out.&lt;span class=&quot;hljs-built_in&quot;&gt;println&lt;/span&gt;(message.body());
+      }
+);
+&lt;span class=&quot;hljs-comment&quot;&gt;// description of timers&lt;/span&gt;
+JsonObject mondayTimer = (&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject()).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;type&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;cron&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;seconds&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;0&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;minutes&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;30&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;hours&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;8&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;days of month&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;months&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;days of week&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Monday&quot;&lt;/span&gt;);
+JsonObject fridayTimer = (&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject()).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;type&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;cron&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;seconds&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;0&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;minutes&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;30&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;hours&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;17&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;days of month&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;months&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;*&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;days of week&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Friday&quot;&lt;/span&gt;);
+&lt;span class=&quot;hljs-comment&quot;&gt;// union timer - combines mondayTimer and fridayTimer&lt;/span&gt;
+JsonArray combination = (&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonArray()).&lt;span class=&quot;hljs-built_in&quot;&gt;add&lt;/span&gt;(mondayTimer)
+    .&lt;span class=&quot;hljs-built_in&quot;&gt;add&lt;/span&gt;(fridayTimer);
+JsonObject timer = (&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject()).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;type&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;union&quot;&lt;/span&gt;)
+    .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;timers&quot;&lt;/span&gt;, combination);
+&lt;span class=&quot;hljs-comment&quot;&gt;// create scheduler and timer&lt;/span&gt;
+eventBus.send (
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;chime&quot;&lt;/span&gt;,
+    (&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject()).put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;operation&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;create&quot;&lt;/span&gt;)
+        .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;name&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;my scheduler:my timer&quot;&lt;/span&gt;)
+        .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;description&quot;&lt;/span&gt;, timer)
+);&lt;/code&gt;&lt;/pre&gt;  
+
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block important&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-exclamation-circle&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt;Ensure that Ceylon verticle factory with right version is available at class path.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;  &lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;at-the-end-&quot;&gt;At the end.&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;herd.schedule.chime&lt;/code&gt; module provides some features not mentioned here:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;convenient builders useful to fill in JSON description of various timers;  &lt;/li&gt;
+&lt;li&gt;proxying event bus with conventional interfaces;  &lt;/li&gt;
+&lt;li&gt;reading JSON timer event into an object;  &lt;/li&gt;
+&lt;li&gt;attaching JSON message to the timer fire event;  &lt;/li&gt;
+&lt;li&gt;managing time zones.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are also some ideas for the future:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;custom or user-defined timers;  &lt;/li&gt;
+&lt;li&gt;limiting the timer fire time / date with calendar;  &lt;/li&gt;
+&lt;li&gt;extracting timer fire message from external source.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;This is very quick introduction to the &lt;em&gt;Chime&lt;/em&gt; and if you are interested in you may read
+more in &lt;a href=&quot;https://modules.ceylon-lang.org/repo/1/herd/schedule/chime/0.2.1/module-doc/api/index.html&quot;&gt;Chime documentation&lt;/a&gt; or even &lt;a href=&quot;https://github.com/LisiLisenok/Chime&quot;&gt;contribute&lt;/a&gt; to.  &lt;/p&gt;
+&lt;p&gt;Thank’s for the reading and enjoy with coding!  &lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus for Real Time Beta</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=661</guid>
+	<link>https://papyrusuml.wordpress.com/2017/05/08/papyrus-for-real-time-beta/</link>
+	<description>&lt;p&gt;My minions have finally decided how the beta for Me-RT v1.0 will be conducted.&lt;/p&gt;
+&lt;p&gt;As I am an open source endeavor, we have limited resources – so let’s use the ones we have!&lt;/p&gt;
+&lt;p&gt;Do you have questions? Please use the &lt;a href=&quot;https://www.eclipse.org/forums/index.php?t=thread&amp;amp;SQ=db2e5a547933df0ab6e3b3931567260f&amp;amp;frm_id=314&amp;amp;frm_goto=Go&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Papyrus-RT Forum&lt;/a&gt;, using “&lt;strong&gt;#Beta&lt;/strong&gt;” to identify beta-related questions.&lt;/p&gt;
+&lt;p&gt;Do you have a short question that can be answered in 140 characters? We’ll monitor &lt;a href=&quot;https://twitter.com/PapyrusUML&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; (&lt;span class=&quot;DashboardProfileCard-screenname u-inlineBlock u-dir&quot; dir=&quot;ltr&quot;&gt;&lt;a class=&quot;DashboardProfileCard-screennameLink u-linkComplex u-linkClean js-nav&quot; href=&quot;https://twitter.com/PapyrusUML&quot;&gt;&lt;span class=&quot;username u-dir&quot; dir=&quot;ltr&quot;&gt;@&lt;b class=&quot;u-linkComplex-target&quot;&gt;PapyrusUML&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;) for the #beta tag.&lt;/p&gt;
+&lt;p&gt;Do you want to tell us how much you love me? &lt;a href=&quot;https://papyrusuml.wordpress.com/contact-us/&quot;&gt;Contact Us&lt;/a&gt;!&lt;br /&gt;
+But be warned that we will only answer questions in the forum or on Twitter!&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/661/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/661/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=661&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 08 May 2017 14:04:16 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

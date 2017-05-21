@@ -1,0 +1,7 @@
+package expresswaysimulation.init;
+
+import repast.simphony.dataLoader.ContextBuilder;
+
+public class ExpresswaySimulationBuilder implements ContextBuilder<T> {
+
+}

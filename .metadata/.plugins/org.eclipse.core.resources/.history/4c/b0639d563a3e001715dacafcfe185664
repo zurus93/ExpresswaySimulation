@@ -1,0 +1,93 @@
+package expresswaysimulation.agents;
+
+import java.util.List;
+import java.util.Random;
+
+import repast.simphony.engine.schedule.ScheduledMethod;
+import repast.simphony.engine.watcher.Watch;
+import repast.simphony.engine.watcher.WatcherTriggerSchedule;
+import repast.simphony.query.space.grid.GridCell;
+import repast.simphony.query.space.grid.GridCellNgh;
+import repast.simphony.space.SpatialMath;
+import repast.simphony.space.continuous.ContinuousSpace;
+import repast.simphony.space.continuous.NdPoint;
+import repast.simphony.space.grid.Grid;
+import repast.simphony.space.grid.GridPoint;
+
+/**
+ * Class representing car agent.
+ * It can move in straight line or change lane to left or right.
+ * When it encounters the gate, it stops for payment and then moves on.
+ */
+public class Auto {
+	
+	private ContinuousSpace<Object> mSpace;
+	private Grid<Object> mGrid;
+	private int mVelocity;
+	
+	private int mPaymentTime = 50;
+	private int mPaymentCounddown = 0;
+	
+	private boolean mPaying = false;
+	
+	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity) {
+		mSpace = space;
+		mGrid = grid;
+		mVelocity = velocity;
+	}
+	
+	@ScheduledMethod(start = 1, interval = 5000)
+	public void step() {
+		GridPoint gp = mGrid.getLocation(this);
+		
+		// Move car according to its velocity
+		int newY = gp.getY() + mVelocity;
+
+		// Check if there are cars at this lane preventing this car from going so fast.
+		// If so drive to the nearest car and start riding behind it.
+		GridCellNgh<Auto> nghCreator = new GridCellNgh<Auto>(mGrid, gp, Auto.class, 0, mVelocity);
+
+		List<GridCell<Auto>> gridCells = nghCreator.getNeighborhood(true);
+
+		for (int i = mVelocity + 1; i < gridCells.size(); ++i) {
+		    GridCell cell = gridCells.get(i);
+		    
+		    if (cell.size() > 0) {
+		        if (cell.getPoint().getY() - 1 > gp.getY())
+		            newY = cell.getPoint().getY() - 1;
+		        else
+		            newY = gp.getY();
+		        
+		        break;
+		    }
+		}
+		
+		// Check if we are near the gate, if so stop for a while to make payment
+		if (mPaying && mPaymentCounddown < mPaymentTime) {
+		    newY = gp.getY();
+		    mPaymentCounddown++;
+		} else {
+		    mPaymentCounddown = 0;
+		    mPaying = false;
+		}
+		
+		moveTo(new GridPoint(gp.getX(), newY));		
+	}
+	
+	public void moveTo(GridPoint pt) {		
+		if (!pt.equals(mGrid.getLocation(this))) {			
+			mGrid.moveTo(this, (int) pt.getX(), (int) pt.getY());
+			mSpace.moveTo(this, pt.getX(), pt.getY());
+		}		
+	}
+	
+	@Watch(watcheeClassName = "expresswaysimulation.agents.Gate",
+	       watcheeFieldNames = "check",
+	       query = " within_moore 1",
+	       whenToTrigger = WatcherTriggerSchedule.IMMEDIATE)
+	public void pay() {
+	    if (mPaymentCounddown < mPaymentTime) {
+	        mPaying = true;
+	    }	    
+	}
+}
