@@ -3,12 +3,15 @@ package expresswaysimulation.agents;
 import java.util.ArrayList;
 import java.util.List;
 
+import expresswaysimulation.util.Params;
+import repast.simphony.context.Context;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.query.space.grid.GridCell;
 import repast.simphony.query.space.grid.GridCellNgh;
 import repast.simphony.space.continuous.ContinuousSpace;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridPoint;
+import repast.simphony.util.ContextUtils;
 
 /**
  * Class representing car agent.
@@ -60,7 +63,11 @@ public class Auto {
 		// Check if we are near the gate
 		newY = nearGates(gp, newY);
 		
-		moveTo(new GridPoint(gp.getX(), newY));		
+		moveTo(new GridPoint(gp.getX(), newY));
+		if(newY >= Params.GRID_HEIGHT - mVelocity){
+			Context<Object> context = ContextUtils.getContext(this);
+			context.remove(this);
+		}
 	}
 	
 	public void moveTo(GridPoint pt) {		

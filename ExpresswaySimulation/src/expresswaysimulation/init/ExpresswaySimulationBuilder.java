@@ -3,6 +3,7 @@ package expresswaysimulation.init;
 import java.util.Random;
 
 import expresswaysimulation.agents.Auto;
+import expresswaysimulation.agents.AutosGenerator;
 import expresswaysimulation.agents.Gate;
 import expresswaysimulation.agents.autos.AutoBlue;
 import expresswaysimulation.agents.autos.AutoGreen;
@@ -42,6 +43,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		LanesManager lanesManager = LanesManager.getInstance();
 		Random rand = new Random();
 		// Cars initialization
+		context.add(new AutosGenerator(1, space, grid));		
 		for (int i = 0; i < Params.NUMBER_OF_CARS; ++i) {
 		    Random rndVelocity = new Random();
 		    int velocity = 1 + rndVelocity.nextInt(3);
@@ -74,7 +76,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		return context ;
 	}
 
-	private Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid,
+	public static Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid,
 			int velocity, Random rand) {
 
 		switch (rand.nextInt(4)){

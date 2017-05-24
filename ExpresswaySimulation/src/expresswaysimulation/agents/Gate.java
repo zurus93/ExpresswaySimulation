@@ -24,6 +24,6 @@ public class Gate {
 	}
 	
 	public int getAwaitingTime(){
-		return 5 + rndPaymentTime.nextInt(10);
+		return 10 + rndPaymentTime.nextInt(10);
 	}
 }
