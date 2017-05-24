@@ -3,6 +3,7 @@ package expresswaysimulation.agents;
 import java.util.ArrayList;
 import java.util.List;
 
+import expresswaysimulation.util.LanesManager;
 import expresswaysimulation.util.Params;
 import repast.simphony.context.Context;
 import repast.simphony.engine.schedule.ScheduledMethod;
@@ -37,8 +38,9 @@ public class Auto {
 		GridPoint gp = mGrid.getLocation(this);
 		
 		// Move car according to its velocity
+		int x = gp.getX();
 		int newY = gp.getY() + mVelocity;
-
+		int newX = x;
 		// Check if there are cars at this lane preventing this car from going so fast.
 		// If so drive to the nearest car and start riding behind it.
 		GridCellNgh<Auto> nghCreator = new GridCellNgh<Auto>(mGrid, gp, Auto.class, 0, mVelocity);
@@ -50,6 +52,13 @@ public class Auto {
 		    GridCell cell = gridCells.get(i);
 		    
 		    if (cell.size() > 0) {
+		    	
+		    	newX = SwitchLane(newY);
+		    	if(x != newX){
+
+		    		break;//da siê zmieniæ pas
+		    	}
+		    	
 		        firstCarInLane = false;
 		        if (cell.getPoint().getY() - 1 > gp.getY())
 		            newY = cell.getPoint().getY() - 1;
@@ -61,13 +70,26 @@ public class Auto {
 		}
 		
 		// Check if we are near the gate
-		newY = nearGates(gp, newY);
-		
-		moveTo(new GridPoint(gp.getX(), newY));
+		int y = nearGates(gp, newY);
+		if(y!=newY){
+			newX = x;//nie zmieniamy pasa, je¿eli jesteœmy na bramkach
+		}
+		newY = y;
+		moveTo(new GridPoint(newX, newY));
 		if(newY >= Params.GRID_HEIGHT - mVelocity){
 			Context<Object> context = ContextUtils.getContext(this);
 			context.remove(this);
 		}
+	}
+	/**
+	 * zwraca nowe x, je¿eli da siê zmieniæ pas
+	 */
+	private int SwitchLane(int newY){
+		GridPoint gp = mGrid.getLocation(this);
+		int x = gp.getX();
+		LanesManager lm = LanesManager.getInstance();
+		int newX = lm.getFreeLaneX(x, newY, mGrid);
+		return newX;
 	}
 	
 	public void moveTo(GridPoint pt) {		
@@ -75,7 +97,6 @@ public class Auto {
 			mGrid.moveTo(this, (int) pt.getX(), (int) pt.getY());
 			mSpace.moveTo(this, pt.getX(), pt.getY());
 		}		
-		System.out.println(pt.getY());
 	}
 	
 	private int nearGates(GridPoint gp, int y) {

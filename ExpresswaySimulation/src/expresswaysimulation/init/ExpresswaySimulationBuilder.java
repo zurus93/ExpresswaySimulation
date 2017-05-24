@@ -42,27 +42,27 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		
 		LanesManager lanesManager = LanesManager.getInstance();
 		Random rand = new Random();
-		// Cars initialization
-		context.add(new AutosGenerator(1, space, grid));		
-		for (int i = 0; i < Params.NUMBER_OF_CARS; ++i) {
-		    Random rndVelocity = new Random();
-		    int velocity = 1 + rndVelocity.nextInt(3);
 
-
-		    Auto auto = getAuto(space, grid, velocity, rand);
-
-		    context.add(auto);
-		    
-		    Random rndX = new Random();
-		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES);
-		    int posX = lanesManager.getLaneX(lane);
-		    
-		    Random rndY = new Random();
-		    int posY = rndY.nextInt(40);		   
-		    
-		    grid.moveTo(auto, posX, posY);
-		    space.moveTo(auto, posX, posY);
-		}
+		context.add(new AutosGenerator(2, space, grid));		
+//		for (int i = 0; i < Params.NUMBER_OF_CARS; ++i) {
+//		    Random rndVelocity = new Random();
+//		    int velocity = 1 + rndVelocity.nextInt(3);
+//
+//
+//		    Auto auto = getAuto(space, grid, velocity, rand);
+//
+//		    context.add(auto);
+//		    
+//		    Random rndX = new Random();
+//		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES);
+//		    int posX = lanesManager.getLaneX(lane);
+//		    
+//		    Random rndY = new Random();
+//		    int posY = rndY.nextInt(40);		   
+//		    
+//		    grid.moveTo(auto, posX, posY);
+//		    space.moveTo(auto, posX, posY);
+//		}
 		
 		// Gates initialization
 		for (int i = 0; i < Params.NUMBER_OF_LANES; ++i) {

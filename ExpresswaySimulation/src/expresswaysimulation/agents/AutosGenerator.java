@@ -24,8 +24,9 @@ public class AutosGenerator {
 		
 	}
 	
-	@ScheduledMethod(start = 1, interval = 2)
+	@ScheduledMethod(start = 1, interval = 3)
 	public void step() {
+		// Cars initialization
 		for(int i=0;i<mAutosPerTick;i++){
 			LanesManager lanesManager = LanesManager.getInstance();
 			Context<Object> context = ContextUtils.getContext(this);
@@ -34,9 +35,9 @@ public class AutosGenerator {
 			Auto auto = ExpresswaySimulationBuilder.getAuto(mSpace, mGrid, velocity, rndVelocity);
 		    context.add(auto);
 		    Random rndX = new Random();
-		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES);
+		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES-4)+2;//zaczynamy tylko na œrodkowym pasie
 		    int posX = lanesManager.getLaneX(lane);
-		    
+			System.out.println(posX);
 		    Random rndY = new Random();	   
 		    
 		    mGrid.moveTo(auto, posX, 0);
