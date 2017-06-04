@@ -45,4 +45,14 @@ public class Params {
 		Parameters params = RunEnvironment.getInstance().getParameters();
 		return (Float) params.getValue("a4go_cars_ratio");
     }
+
+	public static int getMeanVelocity() {
+		Parameters params = RunEnvironment.getInstance().getParameters();
+		return (int) params.getValue("velocity_mean");
+	}
+
+	public static double getVelocityStd() {
+		Parameters params = RunEnvironment.getInstance().getParameters();
+		return (double) params.getValue("velocity_std");
+	}
 }

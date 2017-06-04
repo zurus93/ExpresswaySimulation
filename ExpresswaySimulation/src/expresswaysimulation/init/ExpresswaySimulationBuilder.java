@@ -25,6 +25,7 @@ import repast.simphony.space.grid.WrapAroundBorders;
 
 public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 	
+	private static Random rand = new Random();
 
 	@Override
 	public Context build(Context<Object> context) {
@@ -45,27 +46,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		Random rand = new Random();
 
 		context.add(new AutosGenerator(2, space, grid));		
-//		for (int i = 0; i < Params.NUMBER_OF_CARS; ++i) {
-//		    Random rndVelocity = new Random();
-//		    int velocity = 1 + rndVelocity.nextInt(3);
-//
-//
-//		    Auto auto = getAuto(space, grid, velocity, rand);
-//
-//		    context.add(auto);
-//		    
-//		    Random rndX = new Random();
-//		    int lane = rndX.nextInt(Params.NUMBER_OF_LANES);
-//		    int posX = lanesManager.getLaneX(lane);
-//		    
-//		    Random rndY = new Random();
-//		    int posY = rndY.nextInt(40);		   
-//		    
-//		    grid.moveTo(auto, posX, posY);
-//		    space.moveTo(auto, posX, posY);
-//		}
-		
-		// Gates initialization
+
 		for (int i = 0; i < Params.getLanesNumber(); ++i) {
 		    Gate gate = new Gate(space, grid);
 		    context.add(gate);
@@ -77,9 +58,12 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		return context ;
 	}
 
-	public static Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid,
-			int velocity, Random rand) {
-
+	public static Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid) {
+		double std = Params.getVelocityStd();
+		int mean = Params.getMeanVelocity();
+		int velocity = (int)(rand.nextGaussian() * std + mean);
+		if(velocity<=0)
+			velocity = mean;
 		switch (rand.nextInt(4)){
 		case 1:
 			return new AutoRed(space, grid, velocity);
