@@ -16,9 +16,9 @@ public class LanesManager {
 	}
 	
 	private LanesManager(){
-		mLanes = new int[Params.NUMBER_OF_LANES];
-		int lanesSpace = Params.GRID_WIDTH / (Params.NUMBER_OF_LANES + 1);
-		for(int i=0;i<Params.NUMBER_OF_LANES;i++){
+		mLanes = new int[Params.getLanesNumber()];
+		int lanesSpace = Params.GRID_WIDTH / (Params.getLanesNumber() + 1);
+		for(int i=0;i<Params.getLanesNumber();i++){
 			mLanes[i] = lanesSpace * (i + 1);
 		}
 	}

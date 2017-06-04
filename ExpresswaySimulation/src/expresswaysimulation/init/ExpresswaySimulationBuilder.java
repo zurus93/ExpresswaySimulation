@@ -28,6 +28,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 
 	@Override
 	public Context build(Context<Object> context) {
+		System.out.println((new Integer[]{}).getClass());
 		context.setId ("ExpresswaySimulation");
 		
 		ContinuousSpaceFactory spaceFactory = ContinuousSpaceFactoryFinder.createContinuousSpaceFactory (null);
@@ -65,7 +66,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 //		}
 		
 		// Gates initialization
-		for (int i = 0; i < Params.NUMBER_OF_LANES; ++i) {
+		for (int i = 0; i < Params.getLanesNumber(); ++i) {
 		    Gate gate = new Gate(space, grid);
 		    context.add(gate);
 		    

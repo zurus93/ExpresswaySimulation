@@ -54,12 +54,6 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
-				<parameter name="a4go_cars_ratio" displayName="a4go_cars_ratio" type="float" 
-						defaultValue="0.0" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
-									
-		/>
 		</parameters>
 
 
