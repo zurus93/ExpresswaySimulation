@@ -27,20 +27,24 @@ public class Auto {
 	
 	private int mPaymentTime = 0;
 	
-	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity) {
+	private int mLane;
+	
+	private boolean mPaying = false;
+	
+	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity, int lane) {
 		mSpace = space;
 		mGrid = grid;
 		mVelocity = velocity;
+		mLane = lane;
 	}
 	
 	@ScheduledMethod(start = 1, interval = 1)
 	public void step() {
 		GridPoint gp = mGrid.getLocation(this);
 		
-		// Move car according to its velocity
-		int x = gp.getX();
 		int newY = gp.getY() + mVelocity;
-		int newX = x;
+		int newX = gp.getX();
+
 		// Check if there are cars at this lane preventing this car from going so fast.
 		// If so drive to the nearest car and start riding behind it.
 		GridCellNgh<Auto> nghCreator = new GridCellNgh<Auto>(mGrid, gp, Auto.class, 0, mVelocity);
@@ -51,14 +55,7 @@ public class Auto {
 		for (int i = mVelocity + 1; i < gridCells.size(); ++i) {
 		    GridCell cell = gridCells.get(i);
 		    
-		    if (cell.size() > 0) {
-		    	
-		    	newX = SwitchLane(newY);
-		    	if(x != newX){
-
-		    		break;//da siê zmieniæ pas
-		    	}
-		    	
+		    if (cell.size() > 0) {		    			    	
 		        firstCarInLane = false;
 		        if (cell.getPoint().getY() - 1 > gp.getY())
 		            newY = cell.getPoint().getY() - 1;
@@ -70,25 +67,47 @@ public class Auto {
 		}
 		
 		// Check if we are near the gate
-		int y = nearGates(gp, newY);
-		if(y!=newY){
-			newX = x;//nie zmieniamy pasa, je¿eli jesteœmy na bramkach
-		}
-		newY = y;
+		if (firstCarInLane && newY >= Params.END_POSITION) {
+		    if (mPaying && mPaymentTime > 0) {
+		        mPaymentTime--;
+		        return;
+		    } else if (mPaying && mPaymentTime <= 0) {
+		        Context<Object> context = ContextUtils.getContext(this);
+		        context.remove(this);
+		        return;
+		    } else {
+		        mPaying = true;
+		        newY = Params.END_POSITION;
+		        Gate gate = (Gate) mGrid.getObjectAt(gp.getX(), Params.END_POSITION);
+		        mPaymentTime = gate.getAwaitingTime();
+		    }
+    		
+		} else if (!firstCarInLane && !gateAhead(gp)) {		    
+	        // We can't go faster on this lane, but maybe on the lane next to ours
+            newX = SwitchLane(gp.getY() + mVelocity);
+            if (newX != gp.getX()) {
+                mLane = LanesManager.getInstance().getLaneNumber(newX);
+                newY = gp.getY();               
+            }          
+        }
+		
 		moveTo(new GridPoint(newX, newY));
-		if(newY >= Params.GRID_HEIGHT - mVelocity){
-			Context<Object> context = ContextUtils.getContext(this);
-			context.remove(this);
-		}
 	}
+	
 	/**
 	 * zwraca nowe x, je¿eli da siê zmieniæ pas
 	 */
-	private int SwitchLane(int newY){
+	private int SwitchLane(int newY) {
 		GridPoint gp = mGrid.getLocation(this);
 		int x = gp.getX();
 		LanesManager lm = LanesManager.getInstance();
 		int newX = lm.getFreeLaneX(x, newY, mGrid);
+		
+		// Don't change if it is A4Go lane
+		int laneNumber = lm.getLaneNumber(newX);			
+		if (lm.isA4GoGate(laneNumber)) {
+		    newX = x;
+		}
 		return newX;
 	}
 	
@@ -99,31 +118,20 @@ public class Auto {
 		}		
 	}
 	
-	private int nearGates(GridPoint gp, int y) {
-		
-	    GridCellNgh<Gate> nghCreator = new GridCellNgh<Gate>(mGrid, gp, Gate.class, 1, y - gp.getY());
+	private boolean gateAhead(GridPoint gp) {	    
+	    
+	    GridCellNgh<Gate> nghCreator = new GridCellNgh<Gate>(mGrid, gp, Gate.class, 0, 4);
 	    List<GridCell<Gate>> gridCells = nghCreator.getNeighborhood(true);
-	    int newY = y;
-	    for (GridCell cell : gridCells) {
-	        // Check only cells ahead of the car (we are not interested in the gate if we already passed one).
-	        // If the gate is anywhere on the path we want to go, drive to the coordinates of the gate (not further)
-	        // and stop for enough time to make a payment.
-	        if (cell.getPoint().getY() >= gp.getY() && cell.size() > 0) {
-	        	
-	    		for (Object obj : mGrid.getObjectsAt(cell.getPoint().getX(), cell.getPoint().getY())) {
-	    			if (obj instanceof Gate) {
-	    				Gate gate = (Gate)obj;
-	    	            if (mPaymentTime > 0) {
-	    	            	mPaymentTime--;
-	    	                newY = cell.getPoint().getY();
-	    	                return newY;
-	    	            } else {
-	    	                mPaymentTime = gate.getAwaitingTime();
-	    	            }
-	    			}
-	    		}
-	        }
-	    }
-	    return newY;
+	        
+        for (GridCell cell : gridCells) {
+            // Check only cells ahead of the car (we are not interested in the gate if we already passed one).
+            // If the gate is anywhere on the path we want to go, drive to the coordinates of the gate (not further)
+            // and stop for enough time to make a payment.
+            if (cell.getPoint().getY() >= gp.getY() && cell.size() > 0) {
+                return true;
+            }
+        }
+        
+        return false;
 	}
 }

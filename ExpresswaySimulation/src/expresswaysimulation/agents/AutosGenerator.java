@@ -30,10 +30,11 @@ public class AutosGenerator {
 			LanesManager lanesManager = LanesManager.getInstance();
 			Context<Object> context = ContextUtils.getContext(this);
 			Random rndVelocity = new Random();
-			Auto auto = ExpresswaySimulationBuilder.getAuto(mSpace, mGrid);
+	        Random rndX = new Random();
+	        int lane = startLanesIndices[rndX.nextInt(startLanesIndices.length)];
+	            
+			Auto auto = ExpresswaySimulationBuilder.getAuto(mSpace, mGrid, lane);
 		    context.add(auto);
-		    Random rndX = new Random();
-		    int lane = startLanesIndices[rndX.nextInt(startLanesIndices.length)];
 		    
 		    int posX = lanesManager.getLaneX(lane);
 			System.out.println(posX);

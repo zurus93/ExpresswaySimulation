@@ -2,12 +2,13 @@ package expresswaysimulation.init;
 
 import java.util.Random;
 
+import expresswaysimulation.agents.A4GoGate;
 import expresswaysimulation.agents.Auto;
 import expresswaysimulation.agents.AutosGenerator;
 import expresswaysimulation.agents.Gate;
 import expresswaysimulation.agents.autos.AutoBlue;
 import expresswaysimulation.agents.autos.AutoGreen;
-import expresswaysimulation.agents.autos.AutoRed;
+import expresswaysimulation.agents.autos.AutoA4GoRed;
 import expresswaysimulation.util.LanesManager;
 import expresswaysimulation.util.Params;
 import repast.simphony.context.Context;
@@ -29,7 +30,6 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 
 	@Override
 	public Context build(Context<Object> context) {
-		System.out.println((new Integer[]{}).getClass());
 		context.setId ("ExpresswaySimulation");
 		
 		ContinuousSpaceFactory spaceFactory = ContinuousSpaceFactoryFinder.createContinuousSpaceFactory (null);
@@ -45,10 +45,18 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		LanesManager lanesManager = LanesManager.getInstance();
 		Random rand = new Random();
 
-		context.add(new AutosGenerator(2, space, grid));		
+		context.add(new AutosGenerator(10, space, grid));		
 
-		for (int i = 0; i < Params.getLanesNumber(); ++i) {
-		    Gate gate = new Gate(space, grid);
+		int[] A4GoIndices = Params.getA4GoGatesIndices();
+		for (int i = 0, j = 0; i < Params.getLanesNumber(); ++i) {
+		    Gate gate;
+		    if (j < A4GoIndices.length && A4GoIndices[j] == i) {
+		        gate = new A4GoGate(space, grid);
+		        j++;
+		    } else {
+		        gate = new Gate(space, grid);
+		    }
+		    
 		    context.add(gate);
 		    
 		    grid.moveTo(gate, lanesManager.getLaneX(i), Params.END_POSITION);
@@ -58,23 +66,25 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		return context ;
 	}
 
-	public static Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid) {
+	public static Auto getAuto(ContinuousSpace<Object> space, Grid<Object> grid, int lane) {
 		double std = Params.getVelocityStd();
 		int mean = Params.getMeanVelocity();
-		int velocity = (int)(rand.nextGaussian() * std + mean);
-		if(velocity<=0)
-			velocity = mean;
-		switch (rand.nextInt(4)){
-		case 1:
-			return new AutoRed(space, grid, velocity);
-		case 2:
-			return new AutoGreen(space, grid, velocity);
-		case 3:
-			return new AutoBlue(space, grid, velocity);
-			default: 
-				return new Auto(space, grid, velocity);
-		}
+		int velocity = (int) (rand.nextGaussian() * std + mean);
 		
+		if (velocity <= 0)
+			velocity = mean;
+		
+		if (rand.nextFloat() < Params.getA4GoCarsRatio())
+		    return new AutoA4GoRed(space, grid, velocity, lane);
+		else {
+    		switch (rand.nextInt(3)) {
+    		    case 1:
+    		        return new AutoGreen(space, grid, velocity, lane);
+    		    case 2:
+    		        return new AutoBlue(space, grid, velocity, lane);
+    			default: 
+    				return new Auto(space, grid, velocity, lane);
+    		}
+		}		
 	}
-
 }

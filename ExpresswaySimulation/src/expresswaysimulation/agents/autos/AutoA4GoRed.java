@@ -1,79 +1,72 @@
 package expresswaysimulation.agents.autos;
 
+import expresswaysimulation.agents.Auto;
+import expresswaysimulation.util.LanesManager;
+import expresswaysimulation.util.Params;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.space.continuous.ContinuousSpace;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridPoint;
-import expresswaysimulation.agents.Auto;
-import expresswaysimulation.util.LanesManager;
-import expresswaysimulation.util.Params;
 
 /**
- * Class representing regular car (without A4Go card)
- * It will always move to the lane with least cars (without A4Go gate)
+ * Class representing car with A4Go card
+ *
  */
-public class AutoBlue extends Auto {
-    
+public class AutoA4GoRed extends Auto {
     private ContinuousSpace<Object> mSpace;
     private Grid<Object> mGrid;
 
     private int mLane;    
     private LanesManager lanesManager;
-
-	public AutoBlue(ContinuousSpace<Object> space, Grid<Object> grid,
+    
+	public AutoA4GoRed(ContinuousSpace<Object> space, Grid<Object> grid,
 			int velocity, int lane) {
 		super(space, grid, velocity, lane);
-        mSpace = space;
-        mGrid = grid;
-        mLane = lane;
-        
-        lanesManager = LanesManager.getInstance();
+	    mSpace = space;
+	    mGrid = grid;
+	    mLane = lane;
+	    
+	    lanesManager = LanesManager.getInstance();
 	}
 	
-    @Override
+	@Override
     @ScheduledMethod(start = 1, interval = 1)
-    public void step() {       
+    public void step() {
         GridPoint gp = mGrid.getLocation(this);
         
         int newY = gp.getY();
         int newX = gp.getX();
         
-        // Get regular gates with least cars
-        int laneWithLeastCars = mLane;
-        int carsCount = lanesManager.getCarsCountOnLane(mLane, mGrid, newY);
-        
+        // Get A4GoGate with least cars
+        int laneA4Go = mLane;
+        int carsCount = Integer.MAX_VALUE;
         for (int i = 0; i < Params.getLanesNumber(); ++i) {
-            if (!lanesManager.isA4GoGate(i)) {
+            if (lanesManager.isA4GoGate(i)) {
                 int cars = lanesManager.getCarsCountOnLane(i, mGrid, newY);
                 if (cars < carsCount) {
                     carsCount = cars;
-                    laneWithLeastCars = i;
+                    laneA4Go = i;
                 }
             }
         }
-    
+        
         // Check if we can move towards new gate, if yes change newX
-        boolean moved = false;
-        if (mLane > laneWithLeastCars) {
+        if (mLane > laneA4Go) {
             int newLaneX = lanesManager.getLaneX(mLane - 1);
             if (lanesManager.isFree(newLaneX, newY, mGrid)) {
                 newX = newLaneX;
                 mLane = mLane - 1;
                 moveTo(new GridPoint(newX, newY));
-                moved = true;
             }
-        } else if (mLane < laneWithLeastCars) {
+        } else if (mLane < laneA4Go) {
             int newLaneX = lanesManager.getLaneX(mLane + 1);
             if (lanesManager.isFree(newLaneX, newY, mGrid)) {
                 newX = newLaneX;
                 mLane = mLane + 1;
                 moveTo(new GridPoint(newX, newY));
-                moved = true;
             }
-        }
-        
-        if (!moved) {
+        } else {
             super.step();
-        }
+        }       
     }
 }

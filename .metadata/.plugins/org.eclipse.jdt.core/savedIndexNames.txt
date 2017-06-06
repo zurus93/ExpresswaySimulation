@@ -1,4 +1,0 @@
-INDEX VERSION 1.129+D:\Studia\Systemy agentowe\Projekt\.metadata\.plugins\org.eclipse.jdt.core
-2328269416.index
-4257325822.index
-2345860311.index

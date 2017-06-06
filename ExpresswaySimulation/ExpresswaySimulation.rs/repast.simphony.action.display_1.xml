@@ -3,11 +3,15 @@
   <type>2D</type>
   <styles>
     <entry>
+      <string>expresswaysimulation.agents.A4GoGate</string>
+      <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
+    </entry>
+    <entry>
       <string>expresswaysimulation.agents.autos.AutoBlue</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
     <entry>
-      <string>expresswaysimulation.agents.autos.AutoRed</string>
+      <string>expresswaysimulation.agents.autos.AutoA4GoRed</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
     <entry>
@@ -25,12 +29,16 @@
   </styles>
   <editedStyles>
     <entry>
+      <string>expresswaysimulation.agents.A4GoGate</string>
+      <string>expresswaysimulation.agents.A4GoGate.style_6.xml</string>
+    </entry>
+    <entry>
       <string>expresswaysimulation.agents.autos.AutoBlue</string>
       <string>expresswaysimulation.agents.autos.AutoBlue.style_2.xml</string>
     </entry>
     <entry>
-      <string>expresswaysimulation.agents.autos.AutoRed</string>
-      <string>expresswaysimulation.agents.autos.AutoRed.style_2.xml</string>
+      <string>expresswaysimulation.agents.autos.AutoA4GoRed</string>
+      <string>expresswaysimulation.agents.autos.AutoA4GoRed.style_0.xml</string>
     </entry>
     <entry>
       <string>expresswaysimulation.agents.autos.AutoGreen</string>
@@ -55,31 +63,35 @@
     <pType>LAST</pType>
     <duration>-1.0</duration>
     <frequency>REPEAT</frequency>
-    <hashCode>-1226539410</hashCode>
+    <hashCode>1274092517</hashCode>
   </schedParams>
   <layoutClassName>foo.bar.baz</layoutClassName>
   <layoutProjection>space</layoutProjection>
   <layoutInterval>0</layoutInterval>
   <layerOrder>
     <entry>
-      <string>expresswaysimulation.agents.autos.AutoBlue</string>
-      <int>3</int>
-    </entry>
-    <entry>
-      <string>expresswaysimulation.agents.autos.AutoRed</string>
+      <string>expresswaysimulation.agents.A4GoGate</string>
       <int>1</int>
     </entry>
     <entry>
-      <string>expresswaysimulation.agents.autos.AutoGreen</string>
-      <int>2</int>
-    </entry>
-    <entry>
-      <string>expresswaysimulation.agents.Auto</string>
+      <string>expresswaysimulation.agents.autos.AutoBlue</string>
       <int>4</int>
     </entry>
     <entry>
-      <string>expresswaysimulation.agents.Gate</string>
+      <string>expresswaysimulation.agents.autos.AutoA4GoRed</string>
       <int>0</int>
+    </entry>
+    <entry>
+      <string>expresswaysimulation.agents.autos.AutoGreen</string>
+      <int>3</int>
+    </entry>
+    <entry>
+      <string>expresswaysimulation.agents.Auto</string>
+      <int>5</int>
+    </entry>
+    <entry>
+      <string>expresswaysimulation.agents.Gate</string>
+      <int>2</int>
     </entry>
   </layerOrder>
   <projections>
