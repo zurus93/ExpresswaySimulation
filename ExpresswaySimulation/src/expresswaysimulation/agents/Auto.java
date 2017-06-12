@@ -5,6 +5,7 @@ import java.util.List;
 
 import expresswaysimulation.util.LanesManager;
 import expresswaysimulation.util.Params;
+import expresswaysimulation.util.StatisticsManager;
 import repast.simphony.context.Context;
 import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.query.space.grid.GridCell;
@@ -31,15 +32,22 @@ public class Auto {
 	
 	private boolean mPaying = false;
 	
+	private float mTicksCount;
+	private StatisticsManager mStatisticsManager;
+	
 	public Auto(ContinuousSpace<Object> space, Grid<Object> grid, int velocity, int lane) {
 		mSpace = space;
 		mGrid = grid;
 		mVelocity = velocity;
 		mLane = lane;
+		
+		mStatisticsManager = StatisticsManager.getInstance();
+		mTicksCount = 0;
 	}
 	
 	@ScheduledMethod(start = 1, interval = 1)
 	public void step() {
+	    mTicksCount++;
 		GridPoint gp = mGrid.getLocation(this);
 		
 		int newY = gp.getY() + mVelocity;
@@ -72,6 +80,9 @@ public class Auto {
 		        mPaymentTime--;
 		        return;
 		    } else if (mPaying && mPaymentTime <= 0) {
+		        // Log total time and destroy yourself
+		        mStatisticsManager.logTime(this, mTicksCount);
+		        
 		        Context<Object> context = ContextUtils.getContext(this);
 		        context.remove(this);
 		        return;

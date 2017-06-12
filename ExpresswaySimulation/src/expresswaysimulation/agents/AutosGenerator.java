@@ -37,7 +37,6 @@ public class AutosGenerator {
 		    context.add(auto);
 		    
 		    int posX = lanesManager.getLaneX(lane);
-			System.out.println(posX);
 		    Random rndY = new Random();	   
 		    
 		    mGrid.moveTo(auto, posX, 0);
