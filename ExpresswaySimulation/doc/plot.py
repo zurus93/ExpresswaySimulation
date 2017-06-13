@@ -19,3 +19,4 @@ for path in (f for f in listdir('logs')):
 		plt.plot(data[i], color=c[i])
 
 	plt.savefig('img/'+path.split('.')[0])
+	plt.gcf().clear()
