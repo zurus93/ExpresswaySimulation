@@ -1,5 +1,15 @@
 package expresswaysimulation.util;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVPrinter;
+
 import expresswaysimulation.agents.Auto;
 import expresswaysimulation.agents.autos.AutoA4GoRed;
 import expresswaysimulation.agents.autos.AutoBlue;
@@ -13,18 +23,31 @@ public class StatisticsManager {
     private static final int RED_INDEX = 3;
     
     private static final int DISPLAY_TIME = 500;
-    
+    private String csvName;
     private int[] carsCount = new int[4];
     private long[] carsTime = new long[4];
     
     int count = 0;
     
+    int limit = 10;
+    
+    public static void refresh(){
+    	instance = null;
+    }
+    
     private static StatisticsManager instance = null;
     
     public static StatisticsManager getInstance() {
-        if(instance==null)
+        if(instance==null){
             instance = new StatisticsManager();
+        }
         return instance;
+    }
+    
+    private StatisticsManager(){
+    	Date date = new Date();
+    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+    	csvName = "doc/logs/"+sdf.format(date);
     }
     
     public void logTime(Auto car, float time) {
@@ -59,17 +82,50 @@ public class StatisticsManager {
         
         // Calculate avarage time for all cars
         float avarageCarTime = (avarageBlackCarTime + avarageGreenCarTime + avarageBlueCarTime) / 3.f;
-        
+        limit--;
         // Print results
         displayResults(avarageBlackCarTime, avarageGreenCarTime, avarageBlueCarTime, avarageRedCarTime, avarageCarTime);
-        
+        serializeResults(avarageBlackCarTime, avarageGreenCarTime, avarageBlueCarTime, avarageRedCarTime, avarageCarTime);
         // Clear data
+        
         carsTime = new long[4];
         carsCount = new int[4];
+        
     }
     
-    private void displayResults(float black, float green, float blue, float red, float all) {
-        System.out.println("----------------------------------");
+    private void serializeResults(float black, float green, float blue, float red, float all) {
+    	if(limit<=0)
+    		return;
+    	try{
+    		String fileName =  csvName+".csv";
+    		System.out.println(fileName);
+	    	File file= new File(fileName);
+	    	if (!file.exists())
+	    		file.createNewFile();
+	    	String outputFile = fileName;
+	    	FileWriter fileWriter = new FileWriter(outputFile, true); 
+	    	CSVPrinter csvFilePrinter = new CSVPrinter(fileWriter, CSVFormat.RFC4180);
+	
+	    	
+	    	csvFilePrinter.printRecord(black, green, blue, red, all);
+	
+	    	fileWriter.flush();
+	    	fileWriter.close();
+	    	csvFilePrinter.close();
+    	}
+    	catch(Exception ex){
+    		ex.printStackTrace();
+    	}
+	}
+
+	private void displayResults(float black, float green, float blue, float red, float all) {
+		if(limit<=0){
+			System.out.println("----------------------------------");
+			System.out.println("---------------ENOUGH-------------");
+			System.out.println("----------------------------------");
+			return;
+		}
+        System.out.println(limit+"--------------------------------");
         System.out.println("[BlackCar] " + black + " ticks");
         System.out.println("[GreenCar] " + green + " ticks");
         System.out.println("[BlueCar] " + blue + " ticks");

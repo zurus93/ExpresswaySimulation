@@ -23,7 +23,7 @@ import repast.simphony.util.ContextUtils;
 public class Auto {
 	
 	private ContinuousSpace<Object> mSpace;
-	private Grid<Object> mGrid;
+	protected Grid<Object> mGrid;
 	private int mVelocity;
 	
 	private int mPaymentTime = 0;
@@ -108,7 +108,7 @@ public class Auto {
 	/**
 	 * zwraca nowe x, je¿eli da siê zmieniæ pas
 	 */
-	private int SwitchLane(int newY) {
+	public int SwitchLane(int newY) {
 		GridPoint gp = mGrid.getLocation(this);
 		int x = gp.getX();
 		LanesManager lm = LanesManager.getInstance();

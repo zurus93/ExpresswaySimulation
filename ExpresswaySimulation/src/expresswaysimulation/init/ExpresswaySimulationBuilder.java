@@ -11,6 +11,7 @@ import expresswaysimulation.agents.autos.AutoGreen;
 import expresswaysimulation.agents.autos.AutoA4GoRed;
 import expresswaysimulation.util.LanesManager;
 import expresswaysimulation.util.Params;
+import expresswaysimulation.util.StatisticsManager;
 import repast.simphony.context.Context;
 import repast.simphony.context.space.continuous.ContinuousSpaceFactory;
 import repast.simphony.context.space.continuous.ContinuousSpaceFactoryFinder;
@@ -31,7 +32,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 	@Override
 	public Context build(Context<Object> context) {
 		context.setId ("ExpresswaySimulation");
-		
+		StatisticsManager.refresh();
 		ContinuousSpaceFactory spaceFactory = ContinuousSpaceFactoryFinder.createContinuousSpaceFactory (null);
 		ContinuousSpace<Object> space = spaceFactory.createContinuousSpace("space", context, 
 		        new SimpleCartesianAdder<Object>(), new repast.simphony.space.continuous.WrapAroundBorders(), 

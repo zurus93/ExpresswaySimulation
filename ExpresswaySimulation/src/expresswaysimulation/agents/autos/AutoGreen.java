@@ -23,3 +23,4 @@ public class AutoGreen extends Auto {
 		super(space, grid, velocity, lane);
 	}
 }
+
