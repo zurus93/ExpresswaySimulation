@@ -12,7 +12,7 @@ public class StatisticsManager {
     private static final int BLUE_INDEX = 2;
     private static final int RED_INDEX = 3;
     
-    private static final int DISPLAY_TIME = 100;
+    private static final int DISPLAY_TIME = 500;
     
     private int[] carsCount = new int[4];
     private long[] carsTime = new long[4];
@@ -58,7 +58,7 @@ public class StatisticsManager {
         float avarageRedCarTime = (float) carsTime[RED_INDEX] / carsCount[RED_INDEX];
         
         // Calculate avarage time for all cars
-        float avarageCarTime = (avarageBlackCarTime + avarageGreenCarTime + avarageBlueCarTime + avarageRedCarTime) / 4.f;
+        float avarageCarTime = (avarageBlackCarTime + avarageGreenCarTime + avarageBlueCarTime) / 3.f;
         
         // Print results
         displayResults(avarageBlackCarTime, avarageGreenCarTime, avarageBlueCarTime, avarageRedCarTime, avarageCarTime);
@@ -73,8 +73,8 @@ public class StatisticsManager {
         System.out.println("[BlackCar] " + black + " ticks");
         System.out.println("[GreenCar] " + green + " ticks");
         System.out.println("[BlueCar] " + blue + " ticks");
-        System.out.println("[RedCar] " + red + " ticks");
-        System.out.println("[AllCars] " + all + " ticks");
+        System.out.println("[A4GoCar] " + red + " ticks");
+        System.out.println("[AllCarsWithoutA4Go] " + all + " ticks");
         System.out.println("----------------------------------");
         System.out.println("");
     }
