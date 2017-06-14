@@ -51,12 +51,14 @@ public class AutoA4GoRed extends Auto {
         }
         
         // Check if we can move towards new gate, if yes change newX
+        boolean moved = false;
         if (mLane > laneA4Go) {
             int newLaneX = lanesManager.getLaneX(mLane - 1);
             if (lanesManager.isFree(newLaneX, newY, mGrid)) {
                 newX = newLaneX;
                 mLane = mLane - 1;
                 moveTo(new GridPoint(newX, newY));
+                moved = true;
             }
         } else if (mLane < laneA4Go) {
             int newLaneX = lanesManager.getLaneX(mLane + 1);
@@ -64,9 +66,11 @@ public class AutoA4GoRed extends Auto {
                 newX = newLaneX;
                 mLane = mLane + 1;
                 moveTo(new GridPoint(newX, newY));
+                moved = true;
             }
-        } else {
+        }
+        
+        if (!moved)
             super.step();
-        }       
     }
 }

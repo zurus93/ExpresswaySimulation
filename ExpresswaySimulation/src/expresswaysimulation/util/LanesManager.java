@@ -36,9 +36,11 @@ public class LanesManager {
 			mLanes[i] = lanesSpace * (i + 1);
 			mLanesType[i] = false;
 		}
-		
-		for (int i = 0; i < A4GoIndecies.length; ++i) {
-		    mLanesType[A4GoIndecies[i]] = true;
+
+		if (A4GoIndecies != null) {
+    		for (int i = 0; i < A4GoIndecies.length; ++i) {
+    		    mLanesType[A4GoIndecies[i]] = true;
+    		}
 		}
 	}
 	

@@ -51,7 +51,9 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		int[] A4GoIndices = Params.getA4GoGatesIndices();
 		for (int i = 0, j = 0; i < Params.getLanesNumber(); ++i) {
 		    Gate gate;
-		    if (j < A4GoIndices.length && A4GoIndices[j] == i) {
+		    if (A4GoIndices == null) {
+		        gate = new Gate(space, grid);
+		    } else if (j < A4GoIndices.length && A4GoIndices[j] == i) {
 		        gate = new A4GoGate(space, grid);
 		        j++;
 		    } else {
@@ -78,14 +80,15 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		if (rand.nextFloat() < Params.getA4GoCarsRatio())
 		    return new AutoA4GoRed(space, grid, velocity, lane);
 		else {
-    		switch (rand.nextInt(3)) {
+		    return new AutoBlue(space, grid, velocity, lane);
+    		/*switch (rand.nextInt(3)) {
     		    case 1:
     		        return new AutoGreen(space, grid, velocity, lane);
     		    case 2:
     		        return new AutoBlue(space, grid, velocity, lane);
     			default: 
     				return new Auto(space, grid, velocity, lane);
-    		}
+    		}*/
 		}		
 	}
 }

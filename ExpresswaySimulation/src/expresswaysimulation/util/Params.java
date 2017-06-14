@@ -26,8 +26,11 @@ public class Params {
 		String value = (String) params.getValue("a4go_gates_indices");
 		String[] values = value.split(" ");
 		int[] indices = new int[values.length];
-		for(int i =0;i<values.length;i++)
-			indices[i] = Integer.parseInt(values[i]);
+		for(int i =0;i<values.length;i++) {
+		    if (values[i].equals(""))
+		        return null;
+		    indices[i] = Integer.parseInt(values[i]);		    
+		}			
 		return indices;
     }
     

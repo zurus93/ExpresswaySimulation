@@ -89,8 +89,15 @@ public class Auto {
 		    } else {
 		        mPaying = true;
 		        newY = Params.END_POSITION;
-		        Gate gate = (Gate) mGrid.getObjectAt(gp.getX(), Params.END_POSITION);
-		        mPaymentTime = gate.getAwaitingTime();
+		        Iterable<Object> objects = mGrid.getObjectsAt(gp.getX(), Params.END_POSITION);
+		        
+		        for (Object obj : objects) {
+		            if (obj instanceof Gate) {
+		                Gate gate = (Gate) obj;
+		                mPaymentTime = gate.getAwaitingTime();
+		                break;
+		            }
+		        }		        		        
 		    }
     		
 		} else if (!firstCarInLane && !gateAhead(gp)) {		    

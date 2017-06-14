@@ -22,7 +22,7 @@ public class StatisticsManager {
     private static final int BLUE_INDEX = 2;
     private static final int RED_INDEX = 3;
     
-    private static final int DISPLAY_TIME = 500;
+    private static final int DISPLAY_TIME = 100;
     private String csvName;
     private int[] carsCount = new int[4];
     private long[] carsTime = new long[4];
