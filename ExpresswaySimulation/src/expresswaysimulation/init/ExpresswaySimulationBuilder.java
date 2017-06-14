@@ -80,15 +80,14 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		if (rand.nextFloat() < Params.getA4GoCarsRatio())
 		    return new AutoA4GoRed(space, grid, velocity, lane);
 		else {
-		    return new AutoBlue(space, grid, velocity, lane);
-    		/*switch (rand.nextInt(3)) {
+    		switch (rand.nextInt(3)) {
     		    case 1:
     		        return new AutoGreen(space, grid, velocity, lane);
     		    case 2:
     		        return new AutoBlue(space, grid, velocity, lane);
     			default: 
     				return new Auto(space, grid, velocity, lane);
-    		}*/
+    		}
 		}		
 	}
 }
