@@ -1,0 +1,4 @@
+Bramy: 49
+Bramy A4Go: 8
+Samochody: 50 per tick
+Samochody A4G0: 50%
