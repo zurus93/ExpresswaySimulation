@@ -33,6 +33,8 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 	public Context build(Context<Object> context) {
 		context.setId ("ExpresswaySimulation");
 		StatisticsManager.refresh();
+		LanesManager.refresh();
+		
 		ContinuousSpaceFactory spaceFactory = ContinuousSpaceFactoryFinder.createContinuousSpaceFactory (null);
 		ContinuousSpace<Object> space = spaceFactory.createContinuousSpace("space", context, 
 		        new SimpleCartesianAdder<Object>(), new repast.simphony.space.continuous.WrapAroundBorders(), 
@@ -53,7 +55,7 @@ public class ExpresswaySimulationBuilder implements ContextBuilder<Object> {
 		    Gate gate;
 		    if (A4GoIndices == null) {
 		        gate = new Gate(space, grid);
-		    } else if (j < A4GoIndices.length && A4GoIndices[j] == i) {
+		    } else if (j < A4GoIndices.length && A4GoIndices[j] == i) {		        
 		        gate = new A4GoGate(space, grid);
 		        j++;
 		    } else {

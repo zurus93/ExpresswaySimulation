@@ -19,6 +19,10 @@ public class LanesManager {
 	
 	private Random rand = new Random();
 	
+    public static void refresh(){
+        instance = null;
+    }
+	
 	public static LanesManager getInstance() {
 		if(instance==null)
 			instance = new LanesManager();
